@@ -1,0 +1,11 @@
+package com.kh.spring.tv.model.vo;
+
+public class LgTv implements Tv {
+
+	@Override
+	public void powerOn() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

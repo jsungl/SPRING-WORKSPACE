@@ -1,0 +1,16 @@
+package com.kh.spring.tv.model.vo;
+
+public class SamsungTv implements Tv {
+
+	public SamsungTv() {
+		System.out.println("SamsungTv 객체를 생성했습니다.");
+	}
+	
+	
+	@Override
+	public void powerOn() {
+		System.out.println("SamsungTv의 전원을 켰습니다.");
+
+	}
+
+}

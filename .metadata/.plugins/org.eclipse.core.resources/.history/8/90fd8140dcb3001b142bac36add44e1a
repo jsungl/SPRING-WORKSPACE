@@ -1,0 +1,14 @@
+package com.kh.spring.user;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class UserMvcMain {
+
+	public static void main(String[] args) {
+		String configLocation = "/application-context-with-annotation.xml";
+		ApplicationContext context = new ClassPathXmlApplicationContext(configLocation);
+		
+	}
+
+}

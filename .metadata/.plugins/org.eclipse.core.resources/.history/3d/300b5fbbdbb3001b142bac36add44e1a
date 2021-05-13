@@ -1,0 +1,11 @@
+package com.kh.spring.user.controller;
+
+public class UserController {
+
+	private UserService userService;
+	
+	public void getUserDetail(String id) {
+		userService.getUserDetail(id);
+	}
+	
+}

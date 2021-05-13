@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 기본 namespace는 beans -->
+	<!-- 
+		spring설정파일에
+		빈 등록
+		id : 빈이름(고유값)
+		class : 빈의 타입
+		scope : singletone(기본값) | prototype | request | session
+		lazy-int : default(기본값) | true
+		
+		property[name=remocon] <- setRemocon
+		constructor-arg <- 파라미터생성자를 이용해서 객체생성(ref필수)
+	 -->
+	<bean id="lgTv" class="com.kh.spring.tv.model.vo.LgTv" scope="prototype">
+		<!-- <property name="remocon" ref="lgRemocon"></property> lgTv는 lgRemocon 빈을 의존주입받았다 -->
+		<constructor-arg ref="lgRemocon"/>
+	</bean> <!-- scope="prototype" 미리만들지않고 요청마다(getBean)생성-->
+	
+	<bean id="samsungTv" class="com.kh.spring.tv.model.vo.SamsungTv" lazy-init="true">
+		<property name="remocon" ref="samsungRemocon"></property>
+	</bean> <!-- lazy-init="true" 미리만들지않고 getBean전에 만들어서 준다 -->
+	
+	<bean id="lgRemocon" class="com.kh.spring.tv.model.vo.LgRemoteControl"></bean>
+	<bean id="samsungRemocon" class="com.kh.spring.tv.model.vo.LgRemoteControl"></bean>
+
+
+
+</beans>
