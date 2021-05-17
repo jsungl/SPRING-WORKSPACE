@@ -1,0 +1,11 @@
+package com.kh.spring.demo.controller;
+
+/**
+ * 사용자 요청 하나당 이를 처리하는 Controller메소드(Handler)가 하나씩 존재한다.
+ * 
+ * 
+ *
+ */
+public class DemoController {
+
+}

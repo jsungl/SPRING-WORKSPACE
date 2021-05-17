@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
+		<item value="io.emmet.eclipse:1.0.0.201401132323"/>
 		<item value="net.mihai-nita.ansicon:1.4.4.202102080044"/>
 		<item value="org.aspectj:1.9.6.202012111622"/>
 		<item value="org.eclipse.ajdt:2.2.4.202012111622"/>
@@ -67,4 +68,29 @@
 		<item value="org.springframework.ide.eclipse.webflow.feature:3.9.16.202103111701-RELEASE"/>
 		<item value="org.springframework.ide.eclipse.xml.namespaces.feature:4.10.0.202103111225"/>
 	</list>
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+	</section>
+	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item key="LAST_QUERY" value="welcome"/>
+		<item key="PATH_FILTER" value=""/>
+		<item key="CASE_SENSITIVE" value="true"/>
+		<item key="KEEP_OPEN" value="false"/>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="485"/>
+		</list>
+		<list key="SASH_WEIGHTS">
+			<item value="714"/>
+			<item value="285"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="791"/>
+			<item key="DIALOG_WIDTH" value="979"/>
+			<item key="DIALOG_X_ORIGIN" value="1100"/>
+			<item key="DIALOG_Y_ORIGIN" value="384"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		</section>
+	</section>
 </section>
