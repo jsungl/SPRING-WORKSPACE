@@ -1,17 +1,28 @@
 package com.kh.spring.demo.controller;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.kh.spring.demo.model.service.DemoService;
+import com.kh.spring.demo.model.validator.DevValidator;
 import com.kh.spring.demo.model.vo.Dev;
 
 /**
@@ -43,6 +54,7 @@ import com.kh.spring.demo.model.vo.Dev;
  * SessionStatus: @SessionAttribute로 등록된 속성에 대하여 사용완료(complete)처리
  * 
  * Command객체 : http요청 파라미터를 커맨드객체에 저장한 VO객체
+ * @Valid 커맨드객체 유효성 검사용
  * Error, BindingResult : Command객체에 저장결과, Command객체 바로 다음위치시킬것.
  * 
  * 기타
@@ -53,6 +65,7 @@ import com.kh.spring.demo.model.vo.Dev;
  *
  */
 @Controller
+//@RequestMapping("/demo");
 public class DemoController {
 	/**
 	 * spring용 logging클래스
@@ -132,6 +145,146 @@ public class DemoController {
 		
 		
 		return "demo/devResult";
+	}
+	
+	
+	/**
+	 * 매개변수 Dev객체를 command커맨드객체라 한다.
+	 * @ModelAttribute : 모델에 등록된 속성을 가져오는 어노테이션
+	 * Dev객체는 handler도착전에 model에 등록되어있다.
+	 * 
+	 * 커맨드객체 앞 @ModelAttribute 는 생략이 가능하다.
+	 * 
+	 * 
+	 * @param dev
+	 * @return
+	 */
+	//@RequestMapping(value = "/demo/dev3.do", method = {RequestMethod.POST,RequestMethod.GET}) //get,post둘다 처리
+	//@RequestMapping("/dev3.do")
+	@RequestMapping(value = "/demo/dev3.do", method = RequestMethod.POST) //post요청만 처리
+	public String dev3(@ModelAttribute Dev dev) {
+		log.info("dev = {}",dev);
+		return "demo/devResult";
+	}
+	
+	
+	@RequestMapping(value = "/demo/dev4.do", method = RequestMethod.POST)
+	public String dev4(@Valid Dev dev, BindingResult bindingResult) {
+		log.info("dev = {}",dev);
+		if(bindingResult.hasErrors()) {
+			String errors = "";
+			List<ObjectError> errorList = bindingResult.getAllErrors();
+			for(ObjectError err : errorList) {
+				errors += "{" + err.getCode() + " : " + err.getDefaultMessage() + "}";
+			}
+			throw new IllegalArgumentException(errors);
+		}
+			
+			
+		return "demo/devResult";
+	}
+	
+	@InitBinder
+	public void initBinder(WebDataBinder binder) {
+		binder.setValidator(new DevValidator());
+	}
+	
+	/**
+	 * 등록
+	 * RedirectAttributes
+	 */
+	@RequestMapping(value = "demo/insertDev.do", method = RequestMethod.POST)
+	public String insertDev(@ModelAttribute Dev dev, RedirectAttributes redirectAttribute) {
+		
+		log.info("dev = {}", dev);
+		
+		try {
+			//1. 업무로직
+			int result = demoService.insertDev(dev);
+				
+			//2. 사용자 피드백 & 리다이렉트
+			redirectAttribute.addFlashAttribute("msg", "dev 등록성공!");
+		
+		} catch(Exception e) {
+			log.error("dev 등록 오류!",e); //에러로그
+			throw e;
+		}
+		
+		return "redirect:/demo/devList.do";
+	}
+	
+	/**
+	 * 조회
+	 */
+	@RequestMapping(value = "demo/devList.do", method = RequestMethod.GET)
+	public String devList(Model model) {
+		//1. 업무로직
+		List<Dev> list = demoService.selectDevList();
+		log.info("list = {}",list);
+		//2. jsp위임
+		model.addAttribute("list", list);
+		
+		return "demo/devList";
+	}
+	
+	
+	
+	
+//	@RequestMapping(value = "demo/deleteDev.do", method = RequestMethod.POST)
+//	public String deleteDev(@ModelAttribute Dev dev, RedirectAttributes redirectAttribute) {
+//		
+//		log.info("dev = {}", dev);
+//		
+//		
+//		return "redirect:/demo/devList.do";
+//	}
+	
+	
+	/**
+	 * 삭제
+	 */
+	@RequestMapping(value = "demo/deleteDev.do", method = RequestMethod.POST)
+	public String deleteDev(@RequestParam int no, RedirectAttributes redirectAttribute) {
+		
+		log.info("no = {}", no);
+		
+		try {
+			int result = demoService.deleteDev(no);
+			redirectAttribute.addFlashAttribute("msg", "dev 삭제성공!");
+		} catch(Exception e) {
+			log.error("dev 삭제 오류!",e); //에러로그
+			throw e;
+		}
+		
+		return "redirect:/demo/devList.do";
+	}
+	
+	
+	/**
+	 * 수정
+	 */
+	@RequestMapping(value = "demo/updateDev.do", method = RequestMethod.GET)
+	public String updateDev(@RequestParam int no, Model model) {
+		log.info("no = {}", no);
+		Dev dev = demoService.selectDevOne(no);
+		log.info("dev = {}", dev);
+		model.addAttribute("dev", dev);
+		
+		return "demo/devUpdateForm";
+	}
+	
+	@RequestMapping(value = "demo/updateDev.do", method = RequestMethod.POST)
+	public String updateDev(@ModelAttribute Dev dev, RedirectAttributes redirectAttribute) {
+		log.info("dev = {}", dev);
+		try {
+			int result = demoService.updateDev(dev);				
+			redirectAttribute.addFlashAttribute("msg", "dev 수정성공!");
+		
+		} catch(Exception e) {
+			log.error("dev 수정 오류!",e); 
+			throw e;
+		}
+		return "redirect:/demo/devList.do";
 	}
 	
 	

@@ -1,0 +1,38 @@
+package com.kh.spring.demo.model.validator;
+
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
+
+import com.kh.spring.demo.model.vo.Dev;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class DevValidator implements Validator {
+
+	/**
+	 * 검사하고자하는 객체가 Dev타입일때만 유효성 검사 지원
+	 */
+	@Override
+	public boolean supports(Class<?> clazz) {
+		return Dev.class.isAssignableFrom(clazz); //전달된 클래스가 Dev클래스가 맞는지 확인
+	}
+
+	/**
+	 * 필드별로 유효성 검사를 실시
+	 * 부적합한 값인 경우, Errors객체에 해당 오류사실을 저장.
+	 */
+	@Override
+	public void validate(Object target, Errors errors) {
+		//커맨드객체
+		Dev dev = (Dev)target;
+		log.info("dev = {}", dev);
+		
+		//1. 이름검사
+		
+		
+		//2. 경력검사
+
+	}
+
+}

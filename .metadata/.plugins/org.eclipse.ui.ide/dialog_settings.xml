@@ -48,7 +48,11 @@
 		<item value="org.eclipse.tm.terminal.view.feature:10.2.0.202103012351"/>
 		<item value="org.eclipse.userstorage:1.2.0.v20191120-1614"/>
 		<item value="org.eclipse.wst.common.fproj:3.7.3.v202007142017"/>
+		<item value="org.eclipse.wst.json_ui.feature:1.1.9.v202101100033"/>
+		<item value="org.eclipse.wst.web_ui.feature:3.21.0.v202102251419"/>
+		<item value="org.eclipse.wst.xml.xpath2.processor.feature:2.0.302.v201909031400"/>
 		<item value="org.eclipse.wst.xml_ui.feature:3.21.0.v202102222242"/>
+		<item value="org.eclipse.wst.xsl.feature:1.3.900.v202005251734"/>
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.1.0.201406251020"/>
 		<item value="org.jboss.tools.maven.apt.feature:1.5.2.201812241535"/>
 		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
@@ -72,23 +76,23 @@
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 	</section>
 	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
-		<item key="LAST_QUERY" value="welcome"/>
+		<item key="LAST_QUERY" value="ModelAttribute"/>
 		<item key="PATH_FILTER" value=""/>
 		<item key="CASE_SENSITIVE" value="true"/>
 		<item key="KEEP_OPEN" value="false"/>
 		<list key="COLUMN_WIDTHS">
 			<item value="40"/>
-			<item value="400"/>
-			<item value="485"/>
+			<item value="420"/>
+			<item value="782"/>
 		</list>
 		<list key="SASH_WEIGHTS">
 			<item value="714"/>
 			<item value="285"/>
 		</list>
 		<section name="DialogBoundsSettings">
-			<item key="DIALOG_HEIGHT" value="791"/>
-			<item key="DIALOG_WIDTH" value="979"/>
-			<item key="DIALOG_X_ORIGIN" value="1100"/>
+			<item key="DIALOG_HEIGHT" value="1037"/>
+			<item key="DIALOG_WIDTH" value="1296"/>
+			<item key="DIALOG_X_ORIGIN" value="783"/>
 			<item key="DIALOG_Y_ORIGIN" value="384"/>
 			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 		</section>

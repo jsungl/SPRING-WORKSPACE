@@ -74,12 +74,17 @@ div#demo-container{
 	<div class="list-group">
 	  <button type="button" onclick="submitDev('dev1');" class="list-group-item list-group-item-action">파라미터 핸들링 - HttpServletRequest</button>
 	  <button type="button" onclick="submitDev('dev2');" class="list-group-item list-group-item-action">@RequestParam</button>	
+	  <button type="button" onclick="submitDev('dev3');" class="list-group-item list-group-item-action">@ModelAttribute 커맨드객체</button>	
+	  <button type="button" onclick="submitDev('dev4');" class="list-group-item list-group-item-action">Validator</button>	
+	  <button type="button" onclick="submitDev('insertDev');" class="list-group-item list-group-item-action">Database에 등록</button>	
 	</div>
 </div>
 <script>
 function submitDev(id){
+	
 	var $devFrm = $("#devFrm");
 	$devFrm.attr("action",`${pageContext.request.contextPath}/demo/\${id}.do`)
+		   .attr("method","POST")
 		   .submit();
 }
 </script>
