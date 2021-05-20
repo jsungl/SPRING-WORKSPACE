@@ -21,5 +21,17 @@
 			default
 		)
 	<!-- enroll_date, enabled는 default처리 -->
-	</insert>  
+	</insert>
+	
+	<select id="selectOneMember" resultMap="memberVoMap">
+		select
+			*
+		from
+			member
+		where
+			id = #{id}
+	</select>  
+	<resultMap type="member" id="memberVoMap">
+		<result column="hobby" property="hobby" typeHandler="stringArrayTypehandler"></result>
+	</resultMap>
 </mapper>

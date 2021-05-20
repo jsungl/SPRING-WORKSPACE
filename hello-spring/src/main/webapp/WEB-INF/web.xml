@@ -12,7 +12,12 @@
 	<!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/spring/root-context.xml</param-value> <!-- 빈을 관리하는 단위, servlet-context를 가져다 쓸수는없다 -->
+		<!-- #8.1 security-context 설정파일 추가 -->
+		<param-value>
+			/WEB-INF/spring/root-context.xml
+			/WEB-INF/spring/security-context.xml
+		</param-value> <!-- 빈을 관리하는 단위, servlet-context를 가져다 쓸수는없다 -->
+		
 	</context-param>
 	
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->
@@ -25,7 +30,7 @@
 	<!-- Processes application requests -->
 	<servlet>
 		<servlet-name>appServlet</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class> <!-- 빈을 관리하는 단위, root context를 가져다 쓸수있다 -->
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class> <!-- 빈을 관리하는 단위, root context, security-context를 가져다 쓸수있다 -->
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>

@@ -51,7 +51,7 @@ import com.kh.spring.demo.model.vo.Dev;
  * 
  * @ModelAttribute : model속성에 대한 getter
  * @SessionAttribute : session속성에 대한 getter
- * SessionStatus: @SessionAttribute로 등록된 속성에 대하여 사용완료(complete)처리
+ * SessionStatus: @SessionAttributes로 등록된 속성에 대하여 사용완료(complete)처리
  * 
  * Command객체 : http요청 파라미터를 커맨드객체에 저장한 VO객체
  * @Valid 커맨드객체 유효성 검사용
