@@ -20,12 +20,12 @@
 
 <!-- 사용자작성 css -->
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/style.css" />
-<c:if test="${not empty msg}">
+<%-- <c:if test="${not empty msg}">
 <script>
 	alert("${msg}");
 </script>
 
-</c:if>
+</c:if> --%>
 
 </head>
 <body>
@@ -58,10 +58,22 @@
                         </div>
 				    </li>
 			    </ul>
-			    <button class="btn btn-outline-success my-2 my-sm-0" type="button" >로그인</button>
+			    <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="location.href='${pageContext.request.contextPath}/member/memberLogin.do';">
+			    	로그인
+			    </button>
                 &nbsp;
-                <button class="btn btn-outline-success my-2 my-sm-0" type="button">회원가입</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="location.href='${pageContext.request.contextPath}/member/memberEnroll.do';">
+                	회원가입
+                </button>
 			 </div>
 		</nav>
 	</header>
 	<section id="content">
+	<c:if test="${not empty msg}">
+		<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		  <strong>${msg}</strong>
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    <span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+	</c:if>

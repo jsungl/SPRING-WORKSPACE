@@ -40,7 +40,7 @@
 	</delete>
 	
 	
-	<select id="selectDevOne" resultType="dev">
+	<select id="selectDevOne" resultMap="devVoMap">
 		select
 			*
 		from

@@ -98,19 +98,19 @@ div#demo-container{
  * 
  */
 $(document.devFrm).submit((e) => {
-	//e.preventDefault();
+	
 	var $name = $("[name=name]");
 	//1. 이름은 한글 2글자 이상이어야 한다.
 	if(/^[가-힣]{2,}$/.test($name.val()) == false){
 		alert("이름은 한글 2자리이상이어야 합니다.");
 		$name.select();
-		return false;
+		e.preventDefault();
 	}
 	//2. 개발언어는 하나이상 선택해야 한다.
 	var lang = $("[name=lang]:checked").length;
 	if(lang < 1) {
 		alert("개발언어는 하나이상 선택해야 합니다.");
-		return false;
+		e.preventDefault();
 	}
 	
 });

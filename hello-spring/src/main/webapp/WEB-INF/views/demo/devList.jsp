@@ -64,6 +64,9 @@
 				  .attr("method","GET")
 				  .find("[name=no]").val(no);
 		$updateFrm.submit();
+
+		//실습답안(따로 폼안만들고 처리방식)
+		//location.href = `${pageContext.request.contextPath}/demo/updateDev.do?no=\${no}`;
 		
 	}
 

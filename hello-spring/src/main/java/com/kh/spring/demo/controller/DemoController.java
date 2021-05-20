@@ -193,7 +193,7 @@ public class DemoController {
 	 * 등록
 	 * RedirectAttributes
 	 */
-	@RequestMapping(value = "demo/insertDev.do", method = RequestMethod.POST)
+	@RequestMapping(value = "/demo/insertDev.do", method = RequestMethod.POST)
 	public String insertDev(@ModelAttribute Dev dev, RedirectAttributes redirectAttribute) {
 		
 		log.info("dev = {}", dev);
@@ -216,7 +216,7 @@ public class DemoController {
 	/**
 	 * 조회
 	 */
-	@RequestMapping(value = "demo/devList.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/demo/devList.do", method = RequestMethod.GET)
 	public String devList(Model model) {
 		//1. 업무로직
 		List<Dev> list = demoService.selectDevList();
@@ -229,27 +229,19 @@ public class DemoController {
 	
 	
 	
-	
-//	@RequestMapping(value = "demo/deleteDev.do", method = RequestMethod.POST)
-//	public String deleteDev(@ModelAttribute Dev dev, RedirectAttributes redirectAttribute) {
-//		
-//		log.info("dev = {}", dev);
-//		
-//		
-//		return "redirect:/demo/devList.do";
-//	}
-	
-	
 	/**
 	 * 삭제
 	 */
-	@RequestMapping(value = "demo/deleteDev.do", method = RequestMethod.POST)
+	@RequestMapping(value = "/demo/deleteDev.do", method = RequestMethod.POST)
+	//@PostMapping("/demo/deleteDev.do")
 	public String deleteDev(@RequestParam int no, RedirectAttributes redirectAttribute) {
 		
 		log.info("no = {}", no);
 		
 		try {
 			int result = demoService.deleteDev(no);
+			if(result == 0)
+				throw new IllegalArgumentException("존재하지않는 개발자 정보 : " + no);
 			redirectAttribute.addFlashAttribute("msg", "dev 삭제성공!");
 		} catch(Exception e) {
 			log.error("dev 삭제 오류!",e); //에러로그
@@ -261,23 +253,53 @@ public class DemoController {
 	
 	
 	/**
-	 * 수정
+	 * 수정 GET
 	 */
-	@RequestMapping(value = "demo/updateDev.do", method = RequestMethod.GET)
+	@RequestMapping(value = "/demo/updateDev.do", method = RequestMethod.GET)
 	public String updateDev(@RequestParam int no, Model model) {
 		log.info("no = {}", no);
-		Dev dev = demoService.selectDevOne(no);
-		log.info("dev = {}", dev);
-		model.addAttribute("dev", dev);
+		try {
+			Dev dev = demoService.selectDevOne(no);
+			if(dev == null)
+				throw new IllegalArgumentException("존재하지않는 개발자 정보 : " + no);
+			log.info("dev = {}", dev);
 		
+			model.addAttribute("dev", dev);
+		} catch(Exception e) {
+			log.error("dev 수정 오류!",e); 
+			throw e;
+		}
 		return "demo/devUpdateForm";
 	}
 	
-	@RequestMapping(value = "demo/updateDev.do", method = RequestMethod.POST)
+//	실습답안
+//	@GetMapping("/demo/updateDev.do")
+//	public String updateDev(Model model, @RequestParam(name = "no", required = true) int no) {
+//		try {
+//			//1. 업무로직 
+//			Dev dev = demoService.selectOneDev(no);
+//			if(dev == null)
+//				throw new IllegalArgumentException("존재하지 않는 개발자 정보 : " + no);
+//			log.info("dev = {}", dev);
+//			//2. jsp 위임
+//			model.addAttribute("dev", dev);
+//		} catch(Exception e){
+//			log.error("Dev 수정페이지 오류!", e);
+//			throw e;
+//		}
+//		return "demo/devUpdateForm";
+//	}
+	
+	/**
+	 * 수정 POST
+	 */
+	@RequestMapping(value = "/demo/updateDev.do", method = RequestMethod.POST)
 	public String updateDev(@ModelAttribute Dev dev, RedirectAttributes redirectAttribute) {
 		log.info("dev = {}", dev);
 		try {
 			int result = demoService.updateDev(dev);				
+			if(result == 0)
+				throw new IllegalArgumentException("존재하지않는 개발자 정보 : " + dev.getNo());
 			redirectAttribute.addFlashAttribute("msg", "dev 수정성공!");
 		
 		} catch(Exception e) {
@@ -286,6 +308,25 @@ public class DemoController {
 		}
 		return "redirect:/demo/devList.do";
 	}
+	
+//	실습답안
+//	@PostMapping("/demo/updateDev.do")
+//	public String updateDev(@ModelAttribute Dev dev, RedirectAttributes redirectAttr) {
+//		log.info("수정요청 dev = {}", dev);
+//		try {
+//			//1. 업무로직
+//			int result = demoService.updateDev(dev);
+//			if(result == 0)
+//				throw new IllegalArgumentException("존재하지 않는 개발자 정보 : " + dev.getNo());
+//			
+//			//2. 사용자피드백 & 리다이렉트
+//			redirectAttr.addFlashAttribute("msg", "개발자 정보 수정 성공!");
+//		} catch(Exception e) {
+//			log.error("개발자 정보 수정 오류!", e);
+//			throw e;
+//		}
+//		return "redirect:/demo/devList.do";
+//	}
 	
 	
 }
