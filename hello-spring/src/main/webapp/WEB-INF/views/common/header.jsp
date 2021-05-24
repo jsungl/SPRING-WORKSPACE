@@ -57,8 +57,10 @@
                             <a class="dropdown-item" href="${pageContext.request.contextPath}/demo/devList.do">Dev 목록</a>
                         </div>
 				    </li>
+				    <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/memo/memo.do">Memo(AOP)</a></li>
 			    </ul>
 			    <c:if test="${loginMember == null}">
+			    <%-- 로그인 이전 --%>
 			    <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="location.href='${pageContext.request.contextPath}/member/memberLogin.do';">
 			    	로그인
 			    </button>
@@ -68,7 +70,8 @@
                 </button>
                 </c:if>
                 <c:if test="${loginMember != null}">
-			    <span><a href="#">${loginMember.name}</a>님, 안녕하세요</span>
+                <%-- 로그인 이후 --%>
+			    <span><a href="${pageContext.request.contextPath}/member/memberDetail.do">${loginMember.name}</a>님, 안녕하세요</span>
 			    &nbsp;
 			    <button 
 			    	class="btn btn-outline-success my-2 my-sm-0"

@@ -1,0 +1,6 @@
+package com.kh.spring.common.aop;
+
+//로깅용
+public class LoggerAspect {
+
+}

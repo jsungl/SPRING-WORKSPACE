@@ -1,0 +1,25 @@
+package com.kh.spring.log;
+
+
+/**
+ * Logging
+ * - 콘솔로그 : System.out.print보다 효율적인 로그관리가 가능
+ * - 파일로그
+ * 
+ * Level(Priority) 우선순위
+ * - fatal : 아주 심각한 에러 발생
+ * - error : 요청 처리중 오류 발생
+ * - warn
+ * - info
+ * - debug
+ * - trace
+ *
+ */
+public class Log4jTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

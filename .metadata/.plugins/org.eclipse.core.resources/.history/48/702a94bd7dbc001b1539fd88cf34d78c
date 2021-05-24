@@ -1,0 +1,52 @@
+package com.kh.spring.common.aop;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.Signature;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class LoggerAspect {
+//로깅용
+	
+	/**
+	 * Around Advice
+	 * 	- JoinPoint 실행전, 실행후에 삽입되어 처리되는 advice(보조업무)
+	 * 
+	 * 
+	 * ProceedingJoinPoint joinPoint : 실제 보조업무 메소드를 가리킨다 ex) controller의 insertMemo, service의 insertMemo, dao의 insertMemo 메소드들
+	 */
+	public Object logger(ProceedingJoinPoint joinPoint) throws Throwable{
+		Signature signature = joinPoint.getSignature();
+		
+		//주업무 joinPoint 실행 전(before)
+		log.debug("------ {} start ------", signature);
+		
+		
+		//주업무 joinPoint 실행
+		Object returnObj = joinPoint.proceed();
+		
+		
+		//주업무 joinPoint 실행 후(after)
+		
+		log.debug("------ {} end ------", signature);
+		
+		return null;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,23 @@
+package com.kh.spring.common.aop;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
+public class LoggerAspect {
+//로깅용
+	
+	/**
+	 * Around Advice
+	 * 	- JoinPoint 실행전, 실행후에 삽입되어 처리되는 advice(보조업무)
+	 * 
+	 * @param joinPoint
+	 * @return
+	 */
+	public Object logger(ProceedingJoinPoint joinPoint) {
+		
+		
+		return null;
+	}
+}

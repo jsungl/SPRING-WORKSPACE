@@ -1,0 +1,11 @@
+package com.kh.spring.common.aop.test;
+
+public class FooProxy implements Foo {
+
+	@Override
+	public void sayHello() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

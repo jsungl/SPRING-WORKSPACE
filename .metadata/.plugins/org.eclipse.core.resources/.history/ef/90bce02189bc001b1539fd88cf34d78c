@@ -1,0 +1,10 @@
+package com.kh.spring.common.aop.test;
+
+public class AopTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

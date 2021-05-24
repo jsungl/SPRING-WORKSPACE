@@ -1,0 +1,1141 @@
+INFO :[2021-05-21 18:08:10,365] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 18:08:12,463] ContextLoader.java:306 - Root WebApplicationContext initialized in 2094 ms
+INFO :[2021-05-21 18:08:12,551] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 18:08:14,291] FrameworkServlet.java:546 - Completed initialization in 1740 ms
+INFO :[2021-05-21 18:08:41,643] HomeController.java:30 - index 페이지 요청
+INFO :[2021-05-21 18:08:44,748] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 18:08:44,784] MemberController.java:139 - referer = http://localhost:9090/spring/
+INFO :[2021-05-21 18:08:46,502] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 18:08:46,945] MemberController.java:151 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+INFO :[2021-05-21 18:08:47,029] HomeController.java:30 - index 페이지 요청
+INFO :[2021-05-21 18:08:52,147] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+INFO :[2021-05-21 18:09:40,120] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 18:09:40,137] HomeController.java:30 - index 페이지 요청
+INFO :[2021-05-21 19:21:55,765] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 19:21:57,659] ContextLoader.java:306 - Root WebApplicationContext initialized in 1891 ms
+INFO :[2021-05-21 19:21:57,762] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 19:21:59,457] FrameworkServlet.java:546 - Completed initialization in 1695 ms
+DEBUG:[2021-05-21 19:22:08,230] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:22:08,230] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:22:08,231] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:22:08,247] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:22:08,264] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:22:08,267] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:22:08,402] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:22:08,402] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 19:22:58,861] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 19:23:00,836] ContextLoader.java:306 - Root WebApplicationContext initialized in 1971 ms
+INFO :[2021-05-21 19:23:00,907] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 19:23:02,525] FrameworkServlet.java:546 - Completed initialization in 1618 ms
+INFO :[2021-05-21 19:24:31,142] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 19:24:33,050] ContextLoader.java:306 - Root WebApplicationContext initialized in 1903 ms
+INFO :[2021-05-21 19:24:33,120] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 19:24:34,732] FrameworkServlet.java:546 - Completed initialization in 1611 ms
+DEBUG:[2021-05-21 19:24:39,207] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:24:39,207] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:24:39,208] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:24:39,221] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:24:39,235] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:24:39,238] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:24:39,369] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:24:39,370] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:25:43,717] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:25:43,718] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-05-21 19:25:43,718] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:25:44,250] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-05-21 19:25:44,251] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:25:44,251] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-05-21 19:25:44,297] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:25:44,297] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:26:26,016] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:26:26,017] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:26:26,017] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:26:26,023] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:26:26,038] MemberController.java:139 - referer = http://localhost:9090/spring/demo/devList.do
+DEBUG:[2021-05-21 19:26:26,051] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:26:26,051] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, next=http://localhost:9090/spring/demo/devList.do, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 19:26:26,063] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:26:26,063] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:26:27,708] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:26:27,709] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:26:27,709] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:26:27,740] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:26:27,767] MemberController.java:151 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 19:26:27,832] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:26:27,832] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/demo/devList.do"; model={}]
+DEBUG:[2021-05-21 19:26:27,837] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:26:27,837] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:26:27,853] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:26:27,853] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-05-21 19:26:27,853] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:26:27,855] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-05-21 19:26:27,856] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:26:27,856] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-05-21 19:26:27,870] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:26:27,870] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 19:31:37,565] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 19:31:39,641] ContextLoader.java:306 - Root WebApplicationContext initialized in 2073 ms
+INFO :[2021-05-21 19:31:39,745] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 19:31:41,516] FrameworkServlet.java:546 - Completed initialization in 1771 ms
+DEBUG:[2021-05-21 19:31:47,208] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:31:47,208] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:31:47,208] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:31:47,222] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:31:47,235] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:31:47,237] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:31:48,218] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:31:48,218] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 19:50:51,383] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 19:50:53,517] ContextLoader.java:306 - Root WebApplicationContext initialized in 2130 ms
+INFO :[2021-05-21 19:50:53,616] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 19:50:55,535] FrameworkServlet.java:546 - Completed initialization in 1918 ms
+DEBUG:[2021-05-21 19:51:01,742] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:51:01,743] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:51:01,743] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:51:01,756] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:51:01,772] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:01,776] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:51:01,897] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:51:01,897] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:51:01,969] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:51:01,969] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-05-21 19:51:01,969] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:01,998] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:01,999] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 19:51:01,999] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:51:01,999] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:51:02,007] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:51:02,007] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-05-21 19:51:02,008] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:02,012] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:02,012] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 19:51:02,012] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:51:02,012] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:51:03,510] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:51:03,511] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:51:03,511] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:51:03,516] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:51:03,551] MemberController.java:139 - referer = http://localhost:9090/spring/
+DEBUG:[2021-05-21 19:51:03,566] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:03,566] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 19:51:03,589] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:51:03,589] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:51:05,461] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:51:05,461] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:51:05,462] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:51:05,462] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:51:05,462] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:05,463] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:51:05,465] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:51:05,466] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:51:12,113] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:51:12,114] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:51:12,114] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:51:12,114] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:51:12,115] MemberController.java:139 - referer = null
+DEBUG:[2021-05-21 19:51:12,115] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:12,115] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 19:51:12,119] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:51:12,119] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:51:15,015] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:51:15,015] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:51:15,015] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:51:15,015] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:51:15,016] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:51:15,016] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:51:15,023] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:51:15,024] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:52:39,670] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:52:39,671] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:52:39,671] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:52:39,671] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:52:39,671] MemberController.java:139 - referer = http://localhost:9090/spring/
+DEBUG:[2021-05-21 19:52:39,672] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:52:39,672] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 19:52:39,676] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:52:39,676] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:52:41,182] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:52:41,182] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:52:41,182] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:52:41,202] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:52:41,664] MemberController.java:151 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 19:52:41,728] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:52:41,728] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/"; model={}]
+DEBUG:[2021-05-21 19:52:41,733] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:52:41,733] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:52:41,751] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:52:41,751] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:52:41,751] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:52:41,751] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:52:41,752] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:52:41,752] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:52:41,763] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:52:41,763] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:52:54,662] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:52:54,662] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 19:52:54,662] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:52:54,663] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 19:52:54,663] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:52:54,663] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 19:52:54,664] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:52:54,664] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:52:54,681] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:52:54,681] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:52:54,681] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:52:54,681] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:52:54,682] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:52:54,682] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:52:54,687] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:52:54,687] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:55:44,989] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:55:44,989] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:55:44,989] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:55:44,989] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:55:44,989] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:55:44,990] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:55:44,996] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:55:44,996] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:55:45,033] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:55:45,033] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-05-21 19:55:45,033] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 19:55:45,035] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:55:45,035] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 19:55:45,036] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:55:45,036] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:55:45,071] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:55:45,071] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-05-21 19:55:45,071] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 19:55:45,073] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:55:45,074] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 19:55:45,074] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:55:45,074] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:55:49,779] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:55:49,780] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:55:49,780] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:55:49,780] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:55:49,780] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:55:49,780] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:55:49,784] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:55:49,785] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:55:55,338] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:55:55,339] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:55:55,339] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:55:55,339] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:55:55,339] MemberController.java:139 - referer = null
+DEBUG:[2021-05-21 19:55:55,340] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:55:55,340] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}}]
+DEBUG:[2021-05-21 19:55:55,343] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:55:55,343] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:56:10,868] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:56:10,869] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 19:56:10,869] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 19:56:10,869] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:56:10,869] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:56:10,907] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:56:10,908] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:56:10,908] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:56:10,908] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:56:10,908] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:56:10,908] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:56:10,913] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:56:10,913] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:56:17,692] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:56:17,692] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:56:17,692] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:56:17,692] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:56:17,693] MemberController.java:139 - referer = http://localhost:9090/spring/
+DEBUG:[2021-05-21 19:56:17,693] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:56:17,693] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, next=http://localhost:9090/spring/, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 19:56:17,696] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:56:17,696] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:56:18,903] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:56:18,903] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 19:56:18,903] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:56:18,904] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:56:18,907] MemberController.java:151 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 19:56:18,963] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:56:18,964] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/"; model={}]
+DEBUG:[2021-05-21 19:56:18,964] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:56:18,964] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:56:18,979] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:56:18,979] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:56:18,979] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:56:18,980] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:56:18,980] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:56:18,980] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:56:18,986] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:56:18,986] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:56:22,573] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:56:22,573] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 19:56:22,573] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:56:22,574] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 19:56:22,580] MemberController.java:196 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 19:56:22,581] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:56:22,581] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621594582580}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621594582580, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 19:56:22,586] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:56:22,587] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:56:28,073] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:56:28,073] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 19:56:28,073] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:56:28,074] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 19:56:28,074] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:56:28,074] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 19:56:28,075] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:56:28,075] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 19:56:28,091] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 19:56:28,092] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 19:56:28,092] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 19:56:28,092] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 19:56:28,092] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 19:56:28,093] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 19:56:28,098] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 19:56:28,098] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 20:07:42,369] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 20:07:44,276] ContextLoader.java:306 - Root WebApplicationContext initialized in 1903 ms
+INFO :[2021-05-21 20:07:44,373] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 20:07:45,964] FrameworkServlet.java:546 - Completed initialization in 1591 ms
+DEBUG:[2021-05-21 20:07:59,982] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:07:59,982] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:07:59,982] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:07:59,984] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:07:59,985] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:08:00,055] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:08:00,056] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:08:00,056] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:08:00,067] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:08:00,081] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:08:00,084] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={msg=로그인 후 사용하실 수 있습니다.}]
+DEBUG:[2021-05-21 20:08:00,193] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:08:00,194] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 20:22:25,470] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 20:22:27,430] ContextLoader.java:306 - Root WebApplicationContext initialized in 1957 ms
+INFO :[2021-05-21 20:22:27,534] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 20:22:29,103] FrameworkServlet.java:546 - Completed initialization in 1569 ms
+DEBUG:[2021-05-21 20:22:38,775] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:22:38,775] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:22:38,775] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:22:38,789] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:22:38,804] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:22:38,807] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:22:38,930] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:22:38,930] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:22:38,997] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:22:38,998] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-05-21 20:22:38,998] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:22:39,026] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:22:39,026] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 20:22:39,027] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:22:39,027] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:22:39,033] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:22:39,034] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-05-21 20:22:39,035] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:22:39,039] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:22:39,039] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 20:22:39,040] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:22:39,040] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:22:48,093] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:22:48,093] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:22:48,093] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:22:48,094] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:22:48,094] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:22:48,135] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:22:48,135] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:22:48,136] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:22:48,140] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:22:48,169] MemberController.java:139 - referer = null
+DEBUG:[2021-05-21 20:22:48,170] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:22:48,170] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}}]
+DEBUG:[2021-05-21 20:22:49,085] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:22:49,086] LoggerInterceptor.java:47 - ____________________end_____________________
+WARN :[2021-05-21 20:30:09,222] DispatcherServlet.java:1248 - No mapping for GET /spring/member/memberDetal.do
+INFO :[2021-05-21 20:30:20,764] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 20:30:22,904] ContextLoader.java:306 - Root WebApplicationContext initialized in 2136 ms
+INFO :[2021-05-21 20:30:23,007] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 20:30:24,862] FrameworkServlet.java:546 - Completed initialization in 1854 ms
+DEBUG:[2021-05-21 20:30:28,507] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:30:28,507] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:30:28,507] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:30:28,510] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:30:28,510] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:30:28,552] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:30:28,552] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:30:28,552] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:30:28,565] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:30:28,596] MemberController.java:139 - referer = null
+DEBUG:[2021-05-21 20:30:28,620] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:30:28,620] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:30:28,724] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:30:28,724] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:31:24,066] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:31:24,067] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:31:24,067] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:31:24,082] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:31:24,562] MemberController.java:151 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:31:24,627] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:31:24,627] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 20:31:24,634] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:31:24,634] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:31:24,651] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:31:24,652] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:31:24,652] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:31:24,652] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:31:24,657] MemberController.java:196 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:31:24,658] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:31:24,659] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621596684657}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621596684657, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:31:24,686] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:31:24,687] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:31:30,778] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:31:30,779] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 20:31:30,779] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:31:30,780] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 20:31:30,780] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:31:30,781] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:31:30,781] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:31:30,781] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:31:30,797] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:31:30,797] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:31:30,797] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:31:30,798] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:31:30,798] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:31:30,798] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:31:30,810] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:31:30,810] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 20:31:40,871] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 20:31:42,825] ContextLoader.java:306 - Root WebApplicationContext initialized in 1951 ms
+INFO :[2021-05-21 20:31:42,930] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 20:31:44,660] FrameworkServlet.java:546 - Completed initialization in 1729 ms
+DEBUG:[2021-05-21 20:31:48,759] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:31:48,760] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:31:48,760] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:31:48,772] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:31:48,786] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:31:48,788] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:31:48,888] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:31:48,888] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:32:25,974] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:32:25,975] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-05-21 20:32:25,975] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:32:26,448] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-05-21 20:32:26,449] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:32:26,449] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-05-21 20:32:26,495] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:32:26,495] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:32:49,749] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:32:49,749] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:32:49,750] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:32:49,751] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:32:49,751] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:32:49,792] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:32:49,792] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:32:49,792] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:32:49,797] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:32:49,808] MemberController.java:139 - referer = null
+DEBUG:[2021-05-21 20:32:49,821] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:32:49,821] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:32:49,833] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:32:49,834] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:32:51,800] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:32:51,800] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:32:51,800] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:32:51,816] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:32:51,846] MemberController.java:151 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:32:51,919] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:32:51,920] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 20:32:51,924] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:32:51,925] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:32:51,940] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:32:51,941] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:32:51,941] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:32:51,941] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:32:51,945] MemberController.java:196 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:32:51,946] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:32:51,946] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621596771945}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621596771945, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:32:51,960] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:32:51,960] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:33:03,572] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:33:03,573] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 20:33:03,573] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:33:03,573] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 20:33:03,574] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:33:03,574] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:33:03,575] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:33:03,575] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:33:03,591] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:33:03,591] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:33:03,592] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:33:03,592] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:33:03,592] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:33:03,593] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:33:03,600] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:33:03,600] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 20:39:16,869] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 20:39:18,824] ContextLoader.java:306 - Root WebApplicationContext initialized in 1952 ms
+INFO :[2021-05-21 20:39:18,929] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 20:39:20,572] FrameworkServlet.java:546 - Completed initialization in 1643 ms
+DEBUG:[2021-05-21 20:39:24,823] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:24,823] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:39:24,824] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:39:24,836] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:39:24,851] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:24,854] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:39:24,970] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:24,970] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:33,904] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:33,904] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:39:33,904] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:33,905] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:33,905] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:33,947] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:33,947] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:39:33,948] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:39:33,952] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:39:33,980] MemberController.java:139 - referer = null
+DEBUG:[2021-05-21 20:39:33,994] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:33,994] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:39:34,017] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:34,017] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:36,124] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:36,124] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:39:36,124] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:39:36,124] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:39:36,125] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:36,125] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:39:36,133] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:36,133] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:47,553] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:47,553] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:39:47,553] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:47,553] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:47,554] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:47,568] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:47,569] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:39:47,569] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:39:47,570] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:39:47,570] MemberController.java:139 - referer = null
+DEBUG:[2021-05-21 20:39:47,571] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:47,571] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:39:47,573] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:47,574] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:52,034] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:52,034] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:39:52,035] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:39:52,049] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:39:52,546] MemberController.java:151 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:39:52,612] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:52,612] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 20:39:52,618] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:52,619] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:52,635] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:52,635] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:39:52,635] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:52,636] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:52,636] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:52,657] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:52,658] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:39:52,658] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:39:52,658] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:39:52,659] MemberController.java:139 - referer = http://localhost:9090/spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:39:52,660] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:52,660] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberLogin.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:39:52,663] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:52,663] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:59,247] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:59,247] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:39:59,247] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:39:59,248] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:39:59,250] MemberController.java:151 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:39:59,307] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:59,308] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberLogin.do"; model={}]
+DEBUG:[2021-05-21 20:39:59,308] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:59,308] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:39:59,323] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:39:59,324] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:39:59,324] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:39:59,324] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:39:59,325] MemberController.java:139 - referer = http://localhost:9090/spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:39:59,326] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:39:59,326] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/member/memberLogin.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:39:59,328] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:39:59,328] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:40:02,721] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:40:02,722] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:40:02,722] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:40:02,722] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:40:02,723] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:40:02,723] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:40:02,737] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:40:02,737] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 20:50:53,699] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 20:50:55,654] ContextLoader.java:306 - Root WebApplicationContext initialized in 1951 ms
+INFO :[2021-05-21 20:50:55,757] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 20:50:57,362] FrameworkServlet.java:546 - Completed initialization in 1605 ms
+DEBUG:[2021-05-21 20:51:02,366] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:51:02,366] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:51:02,366] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:51:02,380] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:51:02,394] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:51:02,397] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:51:02,502] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:51:02,503] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:51:08,019] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:51:08,019] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:51:08,019] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:51:08,020] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:51:08,021] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:51:08,062] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:51:08,062] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:51:08,062] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:51:08,067] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:51:08,100] MemberController.java:143 - referer = null
+INFO :[2021-05-21 20:51:08,101] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:51:08,114] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:51:08,114] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:51:08,137] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:51:08,138] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:51:09,468] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:51:09,469] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:51:09,469] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:51:09,469] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:51:09,470] MemberController.java:143 - referer = null
+INFO :[2021-05-21 20:51:09,470] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:51:09,470] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:51:09,471] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:51:09,472] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:51:09,472] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:51:14,334] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:51:14,334] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:51:14,334] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:51:14,335] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:51:14,335] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:51:14,335] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:51:14,343] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:51:14,343] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:51:34,077] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:51:34,077] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:51:34,078] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:51:34,078] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:51:34,079] MemberController.java:143 - referer = http://localhost:9090/spring/
+INFO :[2021-05-21 20:51:34,079] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:51:34,080] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:51:34,080] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:51:34,084] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:51:34,085] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:51:36,703] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:51:36,703] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:51:36,703] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:51:36,717] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:51:37,167] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:51:37,230] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:51:37,231] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 20:51:37,235] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:51:37,235] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:51:37,250] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:51:37,250] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:51:37,251] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:51:37,251] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:51:37,257] MemberController.java:203 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:51:37,258] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:51:37,258] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621597897257}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621597897257, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:51:37,273] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:51:37,273] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 20:51:49,614] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 20:51:51,715] ContextLoader.java:306 - Root WebApplicationContext initialized in 2097 ms
+INFO :[2021-05-21 20:51:51,824] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 20:51:53,545] FrameworkServlet.java:546 - Completed initialization in 1720 ms
+DEBUG:[2021-05-21 20:52:01,049] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:52:01,049] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:52:01,050] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:52:01,063] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:52:01,079] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:01,082] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:52:01,187] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:52:01,188] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:52:06,544] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:52:06,544] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:52:06,545] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:52:06,545] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:52:06,546] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:06,546] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:52:06,553] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:52:06,554] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:52:06,599] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:52:06,599] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-05-21 20:52:06,600] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:06,629] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:06,630] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 20:52:06,630] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:52:06,630] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:52:06,641] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:52:06,642] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-05-21 20:52:06,642] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:06,645] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:06,645] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 20:52:06,646] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:52:06,646] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:52:09,990] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:52:09,990] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:52:09,990] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:52:09,996] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:52:10,031] MemberController.java:143 - referer = http://localhost:9090/spring/
+INFO :[2021-05-21 20:52:10,031] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:52:10,044] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:10,045] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:52:10,066] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:52:10,066] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:52:11,423] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:52:11,423] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:52:11,423] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:52:11,444] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:52:11,907] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:52:11,971] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:11,972] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 20:52:11,976] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:52:11,977] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:52:11,994] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:52:11,995] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:52:11,995] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:52:11,995] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:52:12,004] MemberController.java:203 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:52:12,005] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:52:12,005] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621597932004}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621597932004, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:52:12,021] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:52:12,021] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:53:47,681] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:53:47,682] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 20:53:47,682] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:53:47,682] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 20:53:47,683] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:53:47,683] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:53:47,684] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:53:47,684] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:53:47,715] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:53:47,715] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:53:47,715] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:53:47,716] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:53:47,716] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:53:47,716] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:53:47,723] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:53:47,724] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:53:53,161] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:53:53,161] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:53:53,161] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:53:53,162] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:53:53,162] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:53:53,201] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:53:53,201] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:53:53,201] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:53:53,201] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:53:53,202] MemberController.java:143 - referer = null
+INFO :[2021-05-21 20:53:53,202] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:53:53,203] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:53:53,203] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:53:53,206] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:53:53,207] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:53:57,866] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:53:57,866] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:53:57,866] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:53:57,867] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:53:57,870] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:53:57,927] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:53:57,927] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 20:53:57,927] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:53:57,927] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:53:57,942] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:53:57,942] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:53:57,942] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:53:57,942] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:53:57,943] MemberController.java:203 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:53:57,943] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:53:57,944] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621598037943}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621598037943, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:53:57,949] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:53:57,949] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:00,133] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:00,134] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 20:54:00,134] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:00,134] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 20:54:00,135] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:00,136] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:54:00,136] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:00,136] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:00,152] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:00,153] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:54:00,153] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:00,153] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:54:00,153] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:00,153] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:54:00,156] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:00,156] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:08,848] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:08,849] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:54:08,849] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:08,849] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:08,849] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:08,881] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:08,882] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:54:08,882] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:08,882] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:08,883] MemberController.java:143 - referer = null
+INFO :[2021-05-21 20:54:08,883] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:54:08,884] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:08,884] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:54:08,887] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:08,888] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:13,993] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:13,993] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:54:13,993] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:13,994] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:13,996] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:54:14,053] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:14,053] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/member/memberLogin.do"; model={}]
+DEBUG:[2021-05-21 20:54:14,054] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:14,054] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:14,069] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:14,070] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:54:14,070] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:14,070] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:14,070] MemberController.java:143 - referer = http://localhost:9090/spring/member/memberLogin.do
+INFO :[2021-05-21 20:54:14,070] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:54:14,071] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:14,071] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=아이디 또는 비밀번호가 틀립니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:54:14,073] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:14,073] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:20,218] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:20,218] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:54:20,218] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:20,219] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:20,221] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:54:20,278] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:20,278] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 20:54:20,278] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:20,278] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:20,294] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:20,295] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:54:20,295] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:20,295] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:20,295] MemberController.java:203 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:54:20,296] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:20,296] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621598060296}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621598060296, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:54:20,302] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:20,302] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:22,351] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:22,352] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 20:54:22,352] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:22,352] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 20:54:22,353] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:22,353] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:54:22,353] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:22,353] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:22,368] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:22,368] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:54:22,368] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:22,368] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:54:22,369] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:22,369] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:54:22,372] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:22,372] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:25,446] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:25,446] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:54:25,446] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:25,447] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:54:25,447] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:25,447] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:54:25,450] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:25,450] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:27,762] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:27,762] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:54:27,762] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:27,762] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:54:27,762] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:27,762] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:54:27,765] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:27,765] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:27,796] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:27,797] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-05-21 20:54:27,797] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:27,799] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:27,800] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 20:54:27,800] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:27,800] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:27,828] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:27,829] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-05-21 20:54:27,829] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:27,831] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:27,831] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 20:54:27,831] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:27,831] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:29,176] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:29,176] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:54:29,176] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:29,176] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:29,177] MemberController.java:143 - referer = http://localhost:9090/spring/
+INFO :[2021-05-21 20:54:29,177] MemberController.java:144 - next = null
+DEBUG:[2021-05-21 20:54:29,178] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:29,178] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, next=http://localhost:9090/spring/, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:54:29,181] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:29,181] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:30,910] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:30,910] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:54:30,910] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:30,911] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:30,913] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:54:30,970] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:30,970] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/"; model={}]
+DEBUG:[2021-05-21 20:54:30,971] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:30,971] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:30,988] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:30,988] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:54:30,988] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:30,988] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:54:30,988] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:30,989] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:54:30,992] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:30,992] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 20:54:41,438] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 20:54:43,374] ContextLoader.java:306 - Root WebApplicationContext initialized in 1933 ms
+INFO :[2021-05-21 20:54:43,469] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 20:54:45,067] FrameworkServlet.java:546 - Completed initialization in 1597 ms
+DEBUG:[2021-05-21 20:54:49,783] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:49,784] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:54:49,784] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:49,797] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:54:49,811] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:49,814] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:54:49,935] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:49,935] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:49,989] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:49,989] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-05-21 20:54:49,990] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:50,018] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:50,019] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 20:54:50,019] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:50,020] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:50,029] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:50,029] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-05-21 20:54:50,029] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:50,033] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:50,033] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-05-21 20:54:50,033] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:50,034] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:55,402] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:55,402] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:54:55,403] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:55,409] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:55,443] MemberController.java:143 - referer = http://localhost:9090/spring/
+INFO :[2021-05-21 20:54:55,444] MemberController.java:144 - next = http://localhost:9090/spring/
+DEBUG:[2021-05-21 20:54:55,457] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:55,458] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:54:55,481] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:55,481] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:57,886] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:57,887] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:54:57,887] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:57,908] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:54:58,400] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:54:58,463] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:58,464] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/"; model={}]
+DEBUG:[2021-05-21 20:54:58,469] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:58,469] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:54:58,486] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:54:58,486] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:54:58,486] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:54:58,486] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:54:58,486] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:54:58,487] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:54:58,499] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:54:58,500] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:55:02,697] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:55:02,698] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 20:55:02,698] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:55:02,698] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 20:55:02,699] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:55:02,700] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:55:02,700] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:55:02,701] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:55:02,719] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:55:02,719] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 20:55:02,719] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:55:02,719] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 20:55:02,720] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:55:02,720] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 20:55:02,725] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:55:02,725] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:55:14,325] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:55:14,326] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:55:14,326] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-05-21 20:55:14,327] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:55:14,327] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:55:14,350] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:55:14,351] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:55:14,351] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:55:14,352] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:55:14,352] MemberController.java:143 - referer = null
+INFO :[2021-05-21 20:55:14,352] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:55:14,353] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:55:14,353] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:55:14,356] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:55:14,356] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:55:16,852] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:55:16,852] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 20:55:16,852] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:55:16,853] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:55:16,857] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:55:16,914] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:55:16,914] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 20:55:16,915] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:55:16,915] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 20:55:16,931] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 20:55:16,931] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 20:55:16,931] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 20:55:16,931] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 20:55:16,936] MemberController.java:203 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 20:55:16,936] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 20:55:16,937] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621598116936}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621598116936, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 20:55:16,945] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 20:55:16,945] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 21:05:25,277] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 21:05:27,343] ContextLoader.java:306 - Root WebApplicationContext initialized in 2063 ms
+INFO :[2021-05-21 21:05:27,437] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 21:05:29,198] FrameworkServlet.java:546 - Completed initialization in 1760 ms
+DEBUG:[2021-05-21 21:05:35,830] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:05:35,831] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 21:05:35,831] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:05:35,843] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 21:05:35,857] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:05:35,860] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 21:05:35,973] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:05:35,973] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:05:39,145] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:05:39,145] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-05-21 21:05:39,145] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:05:39,612] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-05-21 21:05:39,612] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:05:39,613] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-05-21 21:05:39,649] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:05:39,649] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:05:42,085] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:05:42,086] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 21:05:42,086] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:05:42,091] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 21:05:42,105] MemberController.java:143 - referer = http://localhost:9090/spring/demo/devList.do
+INFO :[2021-05-21 21:05:42,105] MemberController.java:144 - next = http://localhost:9090/spring/member/memberDetail.do
+DEBUG:[2021-05-21 21:05:42,116] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:05:42,116] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/member/memberDetail.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 21:05:42,126] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:05:42,127] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:05:48,009] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:05:48,009] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 21:05:48,009] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:05:48,040] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 21:05:48,064] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 21:05:48,128] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:05:48,128] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/member/memberDetail.do"; model={}]
+DEBUG:[2021-05-21 21:05:48,132] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:05:48,132] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:05:48,149] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:05:48,149] LoggerInterceptor.java:21 - /spring/member/memberDetail.do
+DEBUG:[2021-05-21 21:05:48,150] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:05:48,150] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 21:05:48,155] MemberController.java:203 - loginMember = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 21:05:48,155] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:05:48,156] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberDetail"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, modelAndView=ModelAndView [view="member/memberDetail"; model={time=1621598748155}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, time=1621598748155, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 21:05:48,169] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:05:48,169] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:05:56,766] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:05:56,766] LoggerInterceptor.java:21 - /spring/member/memberLogout.do
+DEBUG:[2021-05-21 21:05:56,766] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:05:56,767] MemberController.java:86 - @ModelAttribute("common")
+DEBUG:[2021-05-21 21:05:56,767] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:05:56,768] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:/"; model={next=http://localhost:9090/spring/member/memberDetail.do, loginMember=Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true), common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.loginMember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 21:05:56,768] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:05:56,768] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:05:56,784] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:05:56,785] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 21:05:56,785] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:05:56,785] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 21:05:56,786] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:05:56,786] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 21:05:56,791] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:05:56,791] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:05:59,325] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:05:59,325] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-05-21 21:05:59,325] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:05:59,327] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-05-21 21:05:59,328] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:05:59,328] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-05-21 21:05:59,333] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:05:59,333] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:06:01,126] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:06:01,126] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 21:06:01,126] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:06:01,126] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 21:06:01,127] MemberController.java:143 - referer = http://localhost:9090/spring/demo/devList.do
+INFO :[2021-05-21 21:06:01,127] MemberController.java:144 - next = null
+DEBUG:[2021-05-21 21:06:01,128] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:06:01,128] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, next=http://localhost:9090/spring/demo/devList.do, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 21:06:01,130] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:06:01,131] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:06:05,344] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:06:05,344] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-05-21 21:06:05,344] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:06:05,345] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-05-21 21:06:05,346] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:06:05,346] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-05-21 21:06:05,351] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:06:05,352] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:06:06,725] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:06:06,726] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 21:06:06,726] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:06:06,726] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 21:06:06,727] MemberController.java:143 - referer = http://localhost:9090/spring/demo/devList.do
+INFO :[2021-05-21 21:06:06,727] MemberController.java:144 - next = http://localhost:9090/spring/demo/devList.do
+DEBUG:[2021-05-21 21:06:06,727] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:06:06,727] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/demo/devList.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 21:06:06,730] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:06:06,730] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:06:09,048] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:06:09,048] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-05-21 21:06:09,048] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:06:09,051] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-05-21 21:06:09,051] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:06:09,051] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-05-21 21:06:09,054] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:06:09,055] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-05-21 21:16:29,652] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-05-21 21:16:31,620] ContextLoader.java:306 - Root WebApplicationContext initialized in 1964 ms
+INFO :[2021-05-21 21:16:31,703] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-05-21 21:16:33,373] FrameworkServlet.java:546 - Completed initialization in 1670 ms
+DEBUG:[2021-05-21 21:16:50,528] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:16:50,528] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-05-21 21:16:50,528] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:16:50,541] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-05-21 21:16:50,555] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:16:50,558] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-05-21 21:16:50,670] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:16:50,671] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:16:53,517] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:16:53,518] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 21:16:53,518] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:16:53,525] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 21:16:53,560] MemberController.java:143 - referer = http://localhost:9090/spring/
+INFO :[2021-05-21 21:16:53,560] MemberController.java:144 - next = http://localhost:9090/spring/demo/devList.do
+DEBUG:[2021-05-21 21:16:53,574] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:16:53,574] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/demo/devList.do, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
+DEBUG:[2021-05-21 21:16:53,597] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:16:53,598] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:16:54,862] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:16:54,862] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
+DEBUG:[2021-05-21 21:16:54,862] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:16:54,894] MemberController.java:86 - @ModelAttribute("common")
+INFO :[2021-05-21 21:16:55,407] MemberController.java:156 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=null, email=null, phone=01012341234, address=null, hobby=[등산, 독서], enrollDate=2021-05-20, enabled=true)
+DEBUG:[2021-05-21 21:16:55,470] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:16:55,471] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/demo/devList.do"; model={}]
+DEBUG:[2021-05-21 21:16:55,475] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:16:55,476] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-05-21 21:16:55,490] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-05-21 21:16:55,491] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-05-21 21:16:55,491] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-05-21 21:16:55,495] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-05-21 21:16:55,495] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-05-21 21:16:55,496] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-05-21 21:16:55,531] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-05-21 21:16:55,531] LoggerInterceptor.java:47 - ____________________end_____________________
