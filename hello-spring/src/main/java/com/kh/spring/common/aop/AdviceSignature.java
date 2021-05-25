@@ -28,13 +28,13 @@ import lombok.extern.slf4j.Slf4j;
  *
  */
 @Slf4j
-@Component
-@Aspect
+//@Component
+//@Aspect
 public class AdviceSignature {
 	//private Logger logger = Logger.getLogger(AdviceSignature.class);
 	private StopWatch stopWatch  = new StopWatch();
 	
-	@Pointcut("execution(* com.kh.spring.memo..insertMemo(..))")
+	@Pointcut("execution(* com.kh.aop..*Impl.*(..))")
 	public void pointcut() {}
 	
 	@Before("pointcut()")

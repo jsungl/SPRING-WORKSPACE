@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-05-21T00:37:29Z</updated>
+  <updated>2021-05-21T00:37:00Z</updated>
   <entry>
     <title>Spring Boot 2.5 is now GA</title>
     <link rel="alternate" href="https://spring.io/blog/2021/05/20/spring-boot-2-5-is-now-ga" />
@@ -14,8 +14,9 @@
       <name>Madhura Bhave</name>
     </author>
     <id>tag:spring.io,2021-05-20:4454</id>
-    <updated>2021-05-21T00:37:29Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the Spring Boot team and everyone that has contributed, I am pleased to announce that Spring Boot 2.5.0 has been released and is available from Maven Central. &lt;/p&gt;
+    <updated>2021-05-21T00:37:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Update 2021-05-25:&lt;/strong&gt; The release contains fixes for Spring Framework &lt;a href="https://tanzu.vmware.com/security/cve-2021-22118"&gt;CVE-2021-22118&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On behalf of the Spring Boot team and everyone that has contributed, I am pleased to announce that Spring Boot 2.5.0 has been released and is available from Maven Central. &lt;/p&gt;
 &lt;p&gt;This release adds a significant number of new features and improvements. For full &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.5-Release-Notes#upgrading-from-spring-boot-24"&gt;upgrade instructions&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.5-Release-Notes#new-and-noteworthy"&gt;new and noteworthy&lt;/a&gt; features please see the &lt;a href="https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.5-Release-Notes"&gt;release notes&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-rsquo-s-new-in-2-5" class="anchor" name="what-rsquo-s-new-in-2-5"&gt;&lt;/a&gt;What&amp;rsquo;s new in 2.5&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Support for Java 16&lt;/li&gt;
@@ -50,7 +51,8 @@
     </author>
     <id>tag:spring.io,2021-05-20:4451</id>
     <updated>2021-05-21T00:11:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;2.4.6&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Update 2021-05-25:&lt;/strong&gt; This release contains fixes for Spring Framework &lt;a href="https://tanzu.vmware.com/security/cve-2021-22118"&gt;CVE-2021-22118&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Boot &lt;code&gt;2.4.6&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
 &lt;p&gt;This release includes &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.4.6"&gt;84 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/2.4.6/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
@@ -552,14 +554,15 @@ Artem&lt;/p&gt;
   </entry>
   <entry>
     <title>Spring Framework 5.3.7 and 5.2.15 available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/05/11/spring-framework-5-3-7-and-5-2-15-available-now" />
+    <link rel="alternate" href="https://spring.io/blog/2021/05/12/spring-framework-5-3-7-and-5-2-15-available-now" />
     <category term="releases" label="Releases" />
     <author>
       <name>St?phane Nicoll</name>
     </author>
     <id>tag:spring.io,2021-05-12:4435</id>
     <updated>2021-05-12T13:21:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.3.7&lt;/code&gt; and &lt;code&gt;5.2.15&lt;/code&gt; are available now.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;Update 2021-05-25:&lt;/strong&gt; The releases contains fixes for Spring Framework &lt;a href="https://tanzu.vmware.com/security/cve-2021-22118"&gt;CVE-2021-22118&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.3.7&lt;/code&gt; and &lt;code&gt;5.2.15&lt;/code&gt; are available now.&lt;/p&gt;
 &lt;p&gt;Spring Framework &lt;code&gt;5.3.7&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.7"&gt;45 fixes and improvements&lt;/a&gt;. Spring Framework &lt;code&gt;5.2.15&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.2.15.RELEASE"&gt;9 selected fixes and improvements&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Stay tuned for follow-up Spring Boot releases later this week.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.7/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;

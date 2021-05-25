@@ -17,7 +17,6 @@
 			/WEB-INF/spring/root-context.xml
 			/WEB-INF/spring/security-context.xml
 		</param-value> <!-- 빈을 관리하는 단위, servlet-context를 가져다 쓸수는없다 -->
-		
 	</context-param>
 	
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->

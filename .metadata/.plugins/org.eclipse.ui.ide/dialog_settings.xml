@@ -76,7 +76,7 @@
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 	</section>
 	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
-		<item key="LAST_QUERY" value="setNonNullParameter"/>
+		<item key="LAST_QUERY" value="cpage"/>
 		<item key="PATH_FILTER" value=""/>
 		<item key="CASE_SENSITIVE" value="true"/>
 		<item key="KEEP_OPEN" value="false"/>
@@ -86,8 +86,8 @@
 			<item value="782"/>
 		</list>
 		<list key="SASH_WEIGHTS">
-			<item value="714"/>
-			<item value="285"/>
+			<item value="370"/>
+			<item value="629"/>
 		</list>
 		<section name="DialogBoundsSettings">
 			<item key="DIALOG_HEIGHT" value="1037"/>

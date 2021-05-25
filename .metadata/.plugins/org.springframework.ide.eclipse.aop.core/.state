@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="hello-spring"/>
+<aop-project name="hello-spring">
+<aspect-definition advice-class-name="com.kh.spring.common.aop.RuntimeCheckAdvice" advice-method-name="runtimeCheck(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="34" aspect-name="runtimeCheckAdvice" aspect-start-line-number="34" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/hello-spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" pointcut-expression="pointcut()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:hello-spring|3:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml|7:beans:beans:10|8:memoController:10" bean-file="/hello-spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/hello-spring/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" source="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.common.aop{RuntimeCheckAdvice.java[RuntimeCheckAdvice~runtimeCheck~QProceedingJoinPoint;" source-start-line="25" target="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.memo.controller{MemoController.java[MemoController~insertMemo~QMemo;~QRedirectAttributes;" target-start-line="53"/>
+</aspect-definition>
+</aop-project>
 <aop-project name="spring-bean"/>
 </aop-reference-model>

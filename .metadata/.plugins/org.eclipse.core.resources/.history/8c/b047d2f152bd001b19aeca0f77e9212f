@@ -1,0 +1,18 @@
+package com.kh.spring.common.util;
+
+public class HelloSpringUtils {
+
+	
+	public static String getRenamedFilename(String originalFilename) {
+		//확장자 추출
+		//test.jpg
+		int beginIndex = originalFilename.lastIndexOf("."); //4
+		String ext = originalFilename.substring(beginIndex); //.jpg
+		
+		
+		
+		//년월일_난수 format
+		return null;
+	}
+
+}
