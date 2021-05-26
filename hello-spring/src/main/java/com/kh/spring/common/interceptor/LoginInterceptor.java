@@ -27,9 +27,12 @@ public class LoginInterceptor extends HandlerInterceptorAdapter{
 			manager.saveOutputFlashMap(flashMap, request, response);
 			
 			//로그인후 최종이동할 url을 session속성 next 저장
+			//http://localhost:9090/spring/board/boardDetail.do
 			String url = request.getRequestURL().toString();
-			session.setAttribute("next", url); //http://localhost:9090/spring/member/memberDetail.do
-			
+			String queryString = request.getQueryString(); //no=60&q=abc
+			session.setAttribute("next", url + "?" + queryString); 
+			//http://localhost:9090/spring/member/memberDetail.do?null
+			//http://localhost:9090/spring/board/boardDetail.do?no=60&q=abc...
 			response.sendRedirect(request.getContextPath() + "/member/memberLogin.do");
 			return false;
 		}

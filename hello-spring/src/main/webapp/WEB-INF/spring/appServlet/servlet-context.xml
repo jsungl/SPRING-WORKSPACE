@@ -65,7 +65,7 @@
 	<!-- annotation 방식 -->
 	<!-- 
 		aop관련 annotation등록
-		root-context의 aop설정을 servlet-context에 적용.
+		root-context의 aop설정(transaction)을 servlet-context에 적용.
 	 -->
 	<aop:aspectj-autoproxy/>
 	

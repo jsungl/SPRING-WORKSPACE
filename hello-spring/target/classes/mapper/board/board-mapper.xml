@@ -26,16 +26,121 @@
   		board
   </select>
   
+  <insert id="insertBoard">
+  	insert into
+  		board(
+  			no,
+  			title,
+  			member_id,
+  			content
+  		)
+  	values (
+  		seq_board_no.nextval,
+  		#{title},
+  		#{memberId},
+  		#{content}
+  	)
+  	<!-- insert태그안에서 실행 -->
+  	<!-- 발급받은 board pk no값을 파라미터 board객체의 property no에 저장한다 -->
+  	<selectKey keyProperty="no" resultType="_int" order="AFTER">
+  		select
+  			seq_board_no.currval
+  		from
+  			dual
+  	</selectKey>
+  </insert>
+  
+  <insert id="insertAttachment">
+  	insert into
+  		attachment(
+  			no,
+  			board_no,
+  			original_filename,
+  			renamed_filename
+  		)
+  	values(
+  		seq_attachment_no.nextval,
+  		#{boardNo},
+  		#{originalFileName},
+  		#{renamedFileName}
+ 	)
+  </insert>
   
   
+  <select id="selectOneBoard" resultMap="boardExtMap">
+  	select
+  		*
+  	from
+  		board
+  	where
+  		no = #{no}
+  </select>
+  
+  <select id="selectAttachList" resultMap="attachVoMap">
+  	select
+  		*
+  	from
+  		attachment
+  	where
+  		board_no = #{boardNo}
+  </select>
+  <resultMap type="attachment" id="attachVoMap">
+  	<!-- char -> boolean -->
+  	<result column="status" property="status" typeHandler="booleanYnTypeHandler"></result>
+  	<!-- <result column="status" property="status" javaType="boolean" jdbcType="CHAR"/> -->
+  </resultMap>
   
   
-  
-  
-  
-  
-  
-  
-  
-  
+  <!-- 위 방식을 쿼리1개로 처리할때 -->
+  <select id="selectOneBoardCollection" resultMap="boardCollectionMap">
+  	select
+  		 b.*,
+  		 a.no "attach_no",
+  		 a.board_no,
+  		 a.original_filename,
+  		 a.renamed_filename,
+  		 a.upload_date,
+  		 a.download_count,
+  		 a.status
+	from 
+		board b
+    left join 
+    	attachment a
+    on b.no = a.board_no
+	where 
+		b.no = #{no}
+  </select>
+  <resultMap type="boardExt" id="boardCollectionMap">
+  	<result column="member_id" property="memberId"/>
+  	<result column="title" property="title"/>
+  	<result column="content" property="content"/>
+  	<result column="reg_date" property="regDate"/>
+  	<result column="read_count" property="readCount"/>
+  	<collection property="attachList" ofType="attachment">
+  		<id column="attach_no" property="no"/>
+  		<result column="board_no" property="boardNo"/>
+  		<result column="original_filename" property="originalFileName"/>
+  		<result column="renamed_filename" property="renamedFileName"/>
+  		<result column="upload_date" property="uploadDate"/>
+  		<result column="download_count" property="downloadCount"/>
+  		<result column="status" property="status" typeHandler="booleanYnTypeHandler"/>
+  	</collection>
+  </resultMap>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </mapper>

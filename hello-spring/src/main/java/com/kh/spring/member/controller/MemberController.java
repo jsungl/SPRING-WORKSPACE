@@ -177,7 +177,7 @@ public class MemberController {
 		}
 		
 		
-		
+		log.info("next = {}",next);
 		
 		return "redirect:" + (next != null ? next : "/");
 	}

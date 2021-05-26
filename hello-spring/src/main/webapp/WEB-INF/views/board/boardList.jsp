@@ -9,11 +9,25 @@
 <style>
 /*글쓰기버튼*/
 input#btn-add{float:right; margin: 0 0 15px;}
+/* data-no속성이 있는 tr */
+tr[data-no]{
+	cursor:pointer;
+}
 </style>
 <script>
 function goBoardForm(){
 	location.href = "${pageContext.request.contextPath}/board/boardForm.do";
 }
+
+$(() => {
+	$("tr[data-no]").click(e => {
+		//화살표함수안에서는 this는 e.target이 아니다.
+		console.log(e.target); //td태그클릭 -> 부모tr로 이벤트 전파(bubbling)
+		var $tr = $(e.target).parent(); //tr태그
+		var no = $tr.data("no");
+		location.href = "${pageContext.request.contextPath}/board/boardDetail.do?no=" + no;
+	});
+});
 </script>
 <section id="board-container" class="container">
 	<input type="button" value="글쓰기" id="btn-add" class="btn btn-outline-success" onclick="goBoardForm();"/>
@@ -27,7 +41,7 @@ function goBoardForm(){
 			<th>조회수</th>
 		</tr>
 		<c:forEach items="${list}" var="board">
-		<tr>
+		<tr data-no="${board.no}">
 			<td>${board.no}</td>
 			<td>${board.title}</td>
 			<td>${board.memberId}</td>

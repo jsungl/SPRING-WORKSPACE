@@ -13,7 +13,7 @@
   	<package name="com.kh.spring"></package>
   </typeAliases>
   <typeHandlers>
-  	<typeHandler handler="com.kh.spring.common.typehandler.StringArrayTypeHandler"></typeHandler>
-  	<!-- <package name="com.kh.spring.common.typehandler"></package> -->
+  	<!-- <typeHandler handler="com.kh.spring.common.typehandler.StringArrayTypeHandler"/> -->
+  	<package name="com.kh.spring.common.typehandler"></package>
   </typeHandlers>
 </configuration>
