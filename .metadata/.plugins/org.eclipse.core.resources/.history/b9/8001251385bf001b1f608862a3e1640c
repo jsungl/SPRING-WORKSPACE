@@ -58,7 +58,7 @@ $(() => {
 						  }
 					  }); */
 					  const arr = 
-							list.map(({no,title}) => ({
+							list.map(({title}) => ({
 								label: title,
 								value: title,
 								no		

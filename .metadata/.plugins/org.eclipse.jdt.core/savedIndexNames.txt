@@ -46,7 +46,6 @@ INDEX VERSION 1.131+C:\Workspaces\spring_workspace\.metadata\.plugins\org.eclips
 3374285447.index
 772615323.index
 1164445229.index
-1543346839.index
 907340535.index
 3544871549.index
 3442327271.index

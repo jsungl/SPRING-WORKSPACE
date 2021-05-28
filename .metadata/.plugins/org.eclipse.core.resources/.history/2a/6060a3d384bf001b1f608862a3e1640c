@@ -256,7 +256,6 @@ public class BoardController {
 	
 	
 	@GetMapping("/boardSearch.do")
-	@ResponseBody
 	public Map<String, Object> boardSrchList(@RequestParam String searchTitle) {
 		log.debug("searchTitle = {}", searchTitle);
 				
