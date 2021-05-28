@@ -23,4 +23,8 @@ public interface BoardService {
 
 	BoardExt selectOneBoardCollection(int no);
 
+	Attachment selectOneAttachment(int no);
+
+	List<Board> searchTitle(String searchTitle);
+
 }

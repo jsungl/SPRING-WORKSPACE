@@ -2,6 +2,7 @@ package com.kh.spring.board.controller;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -9,8 +10,14 @@ import java.util.Map;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +25,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -38,6 +46,10 @@ public class BoardController {
 	@Autowired
 	private ServletContext application; //생명주기가 제일 긴 객체(서버시작~서버끝)
 
+	@Autowired
+	private ResourceLoader resourceLoader;
+	
+	
 	@Autowired
 	private BoardService boardService;
 	
@@ -158,14 +170,106 @@ public class BoardController {
 		
 	}
 	
-	
+	/**
+	 * ResponseEntity
+	 * 1. status code 커스터마이징
+	 * 2. 응답 header 커스터마이징
+	 * 3. @ResponseBody 기능 포함
+	 * 
+	 * @return
+	 * @throws UnsupportedEncodingException 
+	 */
 	@GetMapping("/fileDownload.do")
-	public void fileDownload(@RequestParam int no) {
+	public ResponseEntity<Resource> fileDownloadWithResponseEntity(@RequestParam int no) throws UnsupportedEncodingException{
+		ResponseEntity<Resource> responseEntity = null;
 		
+		try {
+		
+			//1. 업무로직
+			Attachment attach = boardService.selectOneAttachment(no);
+			if(attach == null) {
+				return ResponseEntity.notFound().build(); //Status code 커스터마이징이 가능하다(404)
+			}
+			
+			//2. Resource객체
+			String saveDirectory = application.getRealPath("/resources/upload/board");
+			File downFile = new File(saveDirectory, attach.getRenamedFileName());
+			Resource resource = resourceLoader.getResource("file:" + downFile);
+			String filename = new String(attach.getOriginalFileName().getBytes("utf-8"),"iso-8859-1");
+			
+			//3. ResponseEntity객체 생성
+			//builder패턴
+			//응답 header 커스터마이징
+			responseEntity = ResponseEntity
+											.ok()
+											.header(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_OCTET_STREAM_VALUE) //Content-Type:application/octet-stream;charset=utf-8
+											.header(HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" + filename)
+											.body(resource);
+			
+		} catch(Exception e) {
+			log.error("파일다운로드 오류",e);
+			throw e;
+		}
+		return responseEntity;
 	}
 	
 	
 	
+	
+//	@GetMapping(value = "/fileDownload.do", produces = MediaType.APPLICATION_OCTET_STREAM_VALUE) //Content-Type : image/jpeg;charset=utf-8
+	@ResponseBody //응답메세지에 return객체를 직접 출력
+	public Resource fileDownload(@RequestParam int no, HttpServletResponse response) throws UnsupportedEncodingException {
+		
+		//1. 업무로직 : db에서 첨부파일 정보 조회
+		Attachment attach = boardService.selectOneAttachment(no);
+		log.debug("attach = {}", attach);
+		if(attach == null) {
+			throw new IllegalArgumentException("해당 첨부파일은 존재하지 않습니다 : " + no);
+		}
+		
+		//2. Resource객체를 리턴 : 응답메세지에서 출력은 spring-container가 처리
+		String originalFilename = attach.getOriginalFileName();
+		String renamedFilename = attach.getRenamedFileName();
+		String saveDirectory = application.getRealPath("/resources/upload/board");
+		File downFile = new File(saveDirectory,renamedFilename);
+		
+		//웹상자원, 서버컴퓨터자원을 모두 다룰수있는 스프링의 추상화 layer
+		String location = "file:" + downFile.toString();
+		//String location = "https://docs.oracle.com/javase/8/docs/api/java/lang/String.html";
+		
+		log.debug("location = {}", location);
+		Resource resource = resourceLoader.getResource(location);
+		
+		
+		//응답헤더
+		//한글깨짐방지처리
+		//response.setContentType("application")
+		originalFilename = new String(originalFilename.getBytes("utf-8"), "iso-8859-1");
+		//originalFilename = "String.html";
+		
+		//response.setContentType(MediaType.APPLICATION_OCTET_STREAM_VALUE); //위 GetMapping에 적는게 우선순위가 더 높다
+		response.addHeader(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=" + originalFilename);
+		
+		return resource;
+		
+	}
+	
+	
+	@GetMapping("/boardSearch.do")
+	public Map<String, Object> boardSrchList(@RequestParam String searchTitle) {
+		log.debug("searchTitle = {}", searchTitle);
+				
+		//1. 업무로직 : 검색어로 board조회
+		List<Board> list = boardService.searchTitle(searchTitle);
+		log.debug("list = {}", list);
+				
+		//2. map에 검색결과를 담아서 전송
+		Map<String, Object> map = new HashMap<>();
+		map.put("list", list);
+		map.put("searchTitle", searchTitle);
+		
+		return map;
+	}
 	
 	
 	

@@ -24,6 +24,10 @@ public interface BoardDao {
 	List<Attachment> selectAttachList(int no);
 
 	BoardExt selectOneBoardCollection(int no);
+
+	Attachment selectOneAttachment(int no);
+
+	List<Board> searchTitle(String searchTitle);
 	
 	
 

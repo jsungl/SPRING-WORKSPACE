@@ -104,21 +104,7 @@ create sequence seq_board_no;
 create sequence seq_attachment_no;
 
 
-select * from board;
-select * from attachment;
 
-select B.*,
-        (select count(*) from attachment where board_no = b.no) attach_count 
-from board B 
-order by
-    no desc;
-
-
---select *
---from board b
---    left join attachment a
---        on b.no = a.board_no
---where b.no = 60;
 
 
 
@@ -191,6 +177,41 @@ Insert into SPRING.BOARD (NO,TITLE,MEMBER_ID,CONTENT,REG_DATE,READ_COUNT) values
 Insert into SPRING.BOARD (NO,TITLE,MEMBER_ID,CONTENT,REG_DATE,READ_COUNT) values (SEQ_BOARD_NO.nextval,'안녕하세요, 게시판입니다 - 59','qwerty','반갑습니다',to_date('18/06/09','RR/MM/DD'),0);
 Insert into SPRING.BOARD (NO,TITLE,MEMBER_ID,CONTENT,REG_DATE,READ_COUNT) values (SEQ_BOARD_NO.nextval,'안녕하세요, 게시판입니다 - 60','admin','안녕하세',to_date('18/06/10','RR/MM/DD'),0);
 commit;
+
+
+
+select * from board;
+select * from attachment;
+
+select B.*,
+        (select count(*) from attachment where board_no = b.no) attach_count 
+from board B 
+order by
+    no desc;
+
+
+--select *
+--from board b
+--    left join attachment a
+--        on b.no = a.board_no
+--where b.no = 60;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

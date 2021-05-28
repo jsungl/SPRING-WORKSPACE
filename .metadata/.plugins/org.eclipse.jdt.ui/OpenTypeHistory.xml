@@ -11,6 +11,6 @@
     <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.memo.model.dao{MemoDao.java[MemoDao" modifiers="513" timestamp="1621845861842"/>
     <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.memo.model.service{MemoService.java[MemoService" modifiers="513" timestamp="1621845835813"/>
     <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.common.aop.test{Foo.java[Foo" modifiers="513" timestamp="1621859106661"/>
-    <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.board.model.service{BoardService.java[BoardService" modifiers="513" timestamp="1621961793589"/>
-    <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.board.model.dao{BoardDao.java[BoardDao" modifiers="513" timestamp="1621962055454"/>
+    <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.board.model.service{BoardService.java[BoardService" modifiers="513" timestamp="1622030696005"/>
+    <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.board.model.dao{BoardDao.java[BoardDao" modifiers="513" timestamp="1622030757852"/>
 </typeInfoHistroy>
