@@ -258,7 +258,7 @@ public class BoardController {
 	@GetMapping("/boardSearch.do")
 	@ResponseBody
 	public Map<String, Object> boardSrchList(@RequestParam String searchTitle) {
-		log.debug("searchTitle = {}", searchTitle);
+		log.debug("searchTitle = {}", searchTitle); //검색어
 				
 		//1. 업무로직 : 검색어로 board조회
 		List<Board> list = boardService.searchTitle(searchTitle);

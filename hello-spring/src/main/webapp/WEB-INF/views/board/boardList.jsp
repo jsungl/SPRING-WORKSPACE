@@ -47,7 +47,7 @@ $(() => {
              		  searchTitle: request.term
                   },
                   success(data){
-                      console.log(data);
+                      console.log(data); //{list: Array(60), searchTitle: "안녕"}
 					  const {list} = data;
 					  //배열을 새로만듬(순수자바스크립트)
 					  /* list.map((board) => {
@@ -57,37 +57,34 @@ $(() => {
 							  value: board.title
 						  }
 					  }); */
+					  console.log(list); //객체배열 [{no: 1, title: "안녕하세요, 게시판입니다 - 1", memberId: "abcde", content: "반갑습니다", regDate: 1518188400000},{},......{}]
 					  const arr = 
 							list.map(({no,title}) => ({
-								label: title,
-								value: title,
+								label: title,//노출텍스트
+								value: title,//내부적으로 처리될값
 								no		
 							}));
-						console.log(arr);
-						response(arr);
+						console.log(arr); //객체배열 [{label: "안녕하세요, 게시판입니다 - 1", value: "안녕하세요, 게시판입니다 - 1", no: 1},{},.....{}]
+						response(arr); //콜백함수 호출
 					  	
                   },
                   error(xhr,status,err){
         			  console.log(xhr,status,err);
         		  }
    	          });
-         		  
-     		  
-     		  
-     		  
      		  
   		},
   		select: function(event, selected){
-  		 // 클릭했을때, 해당게시글 상세페이지로 이동
-  			console.log("select : ", selected);
-  			const {item: {no}} = selected;
+  		 	// 클릭했을때, 해당게시글 상세페이지로 이동
+  			console.log("select : ", selected); //객체 {item: {label: "안녕하세요, 게시판입니다 - 3", value: "안녕하세요, 게시판입니다 - 3", no: 3}}
+  			const {item: {no}} = selected; //no = 3
 			location.href = "${pageContext.request.contextPath}/board/boardDetail.do?no=" + no; 
   	  	},
   		focus: function(event, focused){
   		 return false;
   		},
   		autoFocus: true, 
-		minLength: 2
+		minLength: 2 //2글자이상 입력해야 자동완성글자가 나온다
   		
     });
 });
