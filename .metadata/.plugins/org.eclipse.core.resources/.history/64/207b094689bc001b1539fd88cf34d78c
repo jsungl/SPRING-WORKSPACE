@@ -1,6 +1,0 @@
-package com.kh.spring.common.aop.test;
-
-public class FooImpl implements Foo {
-
-	
-}

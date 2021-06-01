@@ -1,9 +1,0 @@
-package com.kh.spring.memo.model.service;
-
-import com.kh.spring.memo.model.vo.Memo;
-
-public interface MemoService {
-
-	int insertMemo(Memo memo);
-
-}

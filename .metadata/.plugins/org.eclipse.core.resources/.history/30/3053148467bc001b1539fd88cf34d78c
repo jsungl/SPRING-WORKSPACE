@@ -1,5 +1,0 @@
-package com.kh.spring.memo.model.dao;
-
-public class MemoDaoImpl implements MemoDao {
-
-}
