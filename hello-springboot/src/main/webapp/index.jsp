@@ -277,6 +277,20 @@ div.result{width:70%; margin:0 auto;}
 						taste
 				};
 				console.log(menu);
+
+				/*
+				//formData를 활용해서 객체만들기
+				const frmData = new FormData(e.target);
+				const menu = {};
+				frmData.forEach((value,key) => {
+					console.log(value,key); //value와 key순서 바뀜
+					menu[key] = value;
+
+				});
+				console.log(menu); //{restaurant: "봉구스", name: "스팸밥버거", price: "5000", type: "jp", taste: "mild"}
+				*/
+
+				
 				
 				$.ajax({
 					url: "${pageContext.request.contextPath}/menu",
@@ -290,14 +304,64 @@ div.result{width:70%; margin:0 auto;}
 					},
 					error: console.log,
 					complete(){
-						e.target.reset(); 
+						//e.target.reset();
+						$("#menuSearchFrm")[0].reset(); //자바스크립트 객체($("#menuSearchFrm")[0])에 대해 reset
+						$("#menuUpdateFrm")[0].reset(); 
 					}
 				});	
 
 			});
 			</script>
+			<!-- 4. 삭제 DELETE /menu/123 -->    
+			<div class="menu-test">
+		    	<h4>메뉴 삭제하기(DELETE)</h4>
+		    	<p>메뉴번호를 사용해 해당메뉴정보를 삭제함.</p>
+		    	<form id="menuDeleteFrm">
+		    		<input type="text" name="id" placeholder="메뉴번호" class="form-control" /><br />
+		    		<input type="submit" class="btn btn-block btn-outline-danger btn-send" value="삭제" >
+		    	</form>
+		    </div>
+		    <script>
+		    $("#menuDeleteFrm").submit(e => {
+				e.preventDefault();
+
+				const id = $("[name=id]",e.target).val();
+
+				if(!id) return;
+
+				$.ajax({
+					url: `${pageContext.request.contextPath}/menu/\${id}`,
+					method: "DELETE",
+					/* name: function(){}
+					name(){} */
+					success(data){
+						console.log(data);
+						const {msg} = data;
+						alert(msg);
+					},
+//					error: console.log //메소드 간략형,자바스크립트가 제공하는 함수사용(console.log)
+					error(xhr,statusText,err){
+						const {status} = xhr;
+						switch(status){
+							case 404: alert("해당 메뉴가 존재하지 않습니다."); break;
+							default: alert("메뉴 삭제 실패!");
+						}
+					},
+					complete(){
+						$(e.target)[0].reset();
+					}
+
+				});
+
+
+
+			});
 			
-			
+
+
+
+		    </script>
+		
 			
 		</div>
 	</section>

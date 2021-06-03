@@ -13,7 +13,7 @@
     <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.common.aop.test{Foo.java[Foo" modifiers="513" timestamp="1621859106661"/>
     <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.board.model.service{BoardService.java[BoardService" modifiers="513" timestamp="1622184794105"/>
     <typeInfo handle="=hello-spring/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.board.model.dao{BoardDao.java[BoardDao" modifiers="513" timestamp="1622184842107"/>
-    <typeInfo handle="=hello-springboot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.menu.model.service{MenuService.java[MenuService" modifiers="513" timestamp="1622196979413"/>
-    <typeInfo handle="=hello-springboot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.menu.model.dao{MenuDao.java[MenuDao" modifiers="513" timestamp="1622197000117"/>
+    <typeInfo handle="=hello-springboot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.menu.model.service{MenuService.java[MenuService" modifiers="513" timestamp="1622556515582"/>
+    <typeInfo handle="=hello-springboot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.spring.menu.model.dao{MenuDao.java[MenuDao" modifiers="513" timestamp="1622556539647"/>
     <typeInfo handle="=hello-springboot/C:\/dev\/maven\/repository\/org\/mybatis\/mybatis\/3.5.7\/mybatis-3.5.7.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.mybatis=/=/maven.artifactId=/mybatis=/=/maven.version=/3.5.7=/=/maven.scope=/compile=/&lt;org.apache.ibatis.type(BaseTypeHandler.class[BaseTypeHandler" modifiers="1057" timestamp="1622187862510"/>
 </typeInfoHistroy>
