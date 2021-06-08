@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- #4. 암호화인코딩 빈등록 : BCryptPasswordEncoder 빈 등록 -->
+	<beans:bean id="bcryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"></beans:bean>
+	
+	<!-- #5. 권한체크 설정 -->
+	<http security="none" pattern="/resources/**"/> <!-- resources로 시작하는애들(정적파일들:css,js등) 권한검사 x -->
+	<http auto-config="true">
+		<intercept-url pattern="/" access="permitAll"/> <!-- 로그인안해도 접근가능 -->
+		<intercept-url pattern="/index.jsp" access="permitAll"/> <!-- 로그인안해도 접근가능 -->
+		<intercept-url pattern="/member/memberLogin.do" access="isAnonymous()"/> <!-- 인증한상태에서 접근불가 --> 
+		<intercept-url pattern="/member/memberLoginProcess.do" access="isAnonymous()"/>
+		<intercept-url pattern="/admin/**" access="hasRole('ADMIN')"/>
+		<intercept-url pattern="/**" access="hasRole('USER')"/>
+		<!--
+			 login-page : 로그인 폼페이지 요청 
+			 login-processing-url : 로그인폼 제출페이지(로그인폼액션값), 핸들러작성 필요없음.
+			 username-parameter / password-parameter : 
+			 	제출폼에서 id/pw에 해당하는 name값이 username/password가 아닌경우
+		-->
+		<form-login login-page="/member/memberLogin.do" 
+					login-processing-url="/member/memberLoginProcess.do" 
+					username-parameter="id"
+					password-parameter="password"/>
+		<logout 
+			logout-url="/member/memberLogout.do"
+			logout-success-url="/"
+			invalidate-session="true"/> <!-- 로그아웃후 인덱스페이지로 이동,세션값 무효화 -->
+	</http>
+	
+	<!-- #6. 인증/권한 검사 manager빈 설정 -->
+	<authentication-manager>
+		<authentication-provider user-service-ref="securityService">
+			<password-encoder ref="bcryptPasswordEncoder"/>
+		</authentication-provider>
+	
+	</authentication-manager>
+
+	<!-- #7. UserDetails구현체 빈등록 -->
+	<context:component-scan base-package="com.kh.spring.security"/>
+
+
+</beans:beans>
