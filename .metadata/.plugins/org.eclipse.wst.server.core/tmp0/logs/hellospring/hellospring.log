@@ -2,3 +2,362 @@ INFO :[2021-06-11 15:42:56,606] ContextLoader.java:270 - Root WebApplicationCont
 INFO :[2021-06-11 15:42:59,575] ContextLoader.java:306 - Root WebApplicationContext initialized in 2963 ms
 INFO :[2021-06-11 15:42:59,666] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
 INFO :[2021-06-11 15:43:02,798] FrameworkServlet.java:546 - Completed initialization in 3131 ms
+INFO :[2021-06-11 15:54:35,198] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-06-11 15:54:37,776] ContextLoader.java:306 - Root WebApplicationContext initialized in 2574 ms
+INFO :[2021-06-11 15:54:37,847] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-06-11 15:54:40,614] FrameworkServlet.java:546 - Completed initialization in 2767 ms
+DEBUG:[2021-06-11 15:55:00,131] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 15:55:00,131] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-06-11 15:55:00,131] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-11 15:55:00,147] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-06-11 15:55:00,159] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:00,162] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-06-11 15:55:00,299] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 15:55:00,299] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 15:55:00,342] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 15:55:00,342] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-11 15:55:00,342] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:00,342] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 15:55:00,343] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-11 15:55:00,343] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:00,374] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:00,374] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:00,374] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 15:55:00,375] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 15:55:00,376] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 15:55:00,376] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 15:55:00,377] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 15:55:00,377] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 15:55:05,042] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 15:55:05,042] LoggerInterceptor.java:21 - /spring/ws/stomp.do
+DEBUG:[2021-06-11 15:55:05,042] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:05,043] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:05,043] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
+DEBUG:[2021-06-11 15:55:05,934] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 15:55:05,935] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 15:55:06,211] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 15:55:06,211] LoggerInterceptor.java:21 - /spring/websoocket/info
+DEBUG:[2021-06-11 15:55:06,211] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:06,216] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:06,216] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 15:55:06,216] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 15:55:06,216] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 15:55:06,226] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 15:55:06,227] LoggerInterceptor.java:21 - /spring/websoocket/417/0140xdbv/websocket
+DEBUG:[2021-06-11 15:55:06,227] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:06,311] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 15:55:06,312] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 15:55:06,312] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 15:55:06,312] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 15:55:06,337] WebsocketHandler.java:30 - onopen(1) : WebSocketServerSockJsSession[id=0140xdbv]
+DEBUG:[2021-06-11 15:55:27,125] WebsocketHandler.java:38 - onmessage : TextMessage payload=[되나], byteCount=6, last=true] from WebSocketServerSockJsSession[id=0140xdbv]
+DEBUG:[2021-06-11 15:57:18,198] WebsocketHandler.java:54 - onclose(0)
+INFO :[2021-06-11 16:45:41,308] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-06-11 16:45:44,010] ContextLoader.java:306 - Root WebApplicationContext initialized in 2698 ms
+INFO :[2021-06-11 16:45:44,096] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-06-11 16:45:47,558] CompositeLog.java:132 - Starting...
+INFO :[2021-06-11 16:45:47,559] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-11 16:45:47,562] CompositeLog.java:132 - Started.
+INFO :[2021-06-11 16:45:47,588] FrameworkServlet.java:546 - Completed initialization in 3492 ms
+DEBUG:[2021-06-11 16:46:14,810] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:46:14,810] LoggerInterceptor.java:21 - /spring/ws/stomp.do
+DEBUG:[2021-06-11 16:46:14,811] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:14,836] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:14,839] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
+DEBUG:[2021-06-11 16:46:15,768] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:46:15,768] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 16:46:15,831] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:46:15,831] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-11 16:46:15,831] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:15,859] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:15,859] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 16:46:15,860] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:46:15,860] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 16:46:15,970] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:46:15,970] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-11 16:46:15,970] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:15,973] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:15,973] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 16:46:15,974] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:46:15,974] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 16:46:16,158] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:46:16,158] LoggerInterceptor.java:21 - /spring/stommp/info
+DEBUG:[2021-06-11 16:46:16,159] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:16,163] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:16,163] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 16:46:16,163] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:46:16,163] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 16:46:16,210] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:46:16,210] LoggerInterceptor.java:21 - /spring/stommp/885/l4efjp2a/websocket
+DEBUG:[2021-06-11 16:46:16,210] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:16,281] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:46:16,281] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 16:46:16,281] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:46:16,282] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-11 16:46:47,336] WebSocketMessageBrokerStats.java:124 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 12, active threads = 1, queued tasks = 2, completed tasks = 8]
+DEBUG:[2021-06-11 16:57:59,611] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:57:59,611] LoggerInterceptor.java:21 - /spring/ws/stomp.do
+DEBUG:[2021-06-11 16:57:59,612] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:57:59,612] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:57:59,612] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
+DEBUG:[2021-06-11 16:57:59,796] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:57:59,797] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 16:57:59,862] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:57:59,863] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-11 16:57:59,863] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:57:59,866] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:57:59,867] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 16:57:59,867] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:57:59,867] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 16:57:59,999] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:57:59,999] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-11 16:57:59,999] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:58:00,002] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:58:00,002] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 16:58:00,002] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:58:00,003] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 16:58:00,210] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:58:00,210] LoggerInterceptor.java:21 - /spring/stommp/info
+DEBUG:[2021-06-11 16:58:00,210] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:58:00,211] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:58:00,212] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 16:58:00,212] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:58:00,213] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 16:58:00,219] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 16:58:00,220] LoggerInterceptor.java:21 - /spring/stommp/330/raoyk3ug/websocket
+DEBUG:[2021-06-11 16:58:00,220] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 16:58:00,221] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 16:58:00,222] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 16:58:00,222] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 16:58:00,222] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-11 17:10:55,343] CompositeLog.java:132 - Stopping...
+INFO :[2021-06-11 17:10:55,343] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-11 17:10:55,344] CompositeLog.java:132 - Stopped.
+INFO :[2021-06-11 17:10:57,934] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-06-11 17:11:00,736] ContextLoader.java:306 - Root WebApplicationContext initialized in 2799 ms
+INFO :[2021-06-11 17:11:00,819] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-06-11 17:11:04,213] CompositeLog.java:132 - Starting...
+INFO :[2021-06-11 17:11:04,214] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-11 17:11:04,216] CompositeLog.java:132 - Started.
+INFO :[2021-06-11 17:11:04,235] FrameworkServlet.java:546 - Completed initialization in 3416 ms
+DEBUG:[2021-06-11 17:11:36,021] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:11:36,021] LoggerInterceptor.java:21 - /spring/ws/stomp.do
+DEBUG:[2021-06-11 17:11:36,021] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:36,048] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:36,051] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
+DEBUG:[2021-06-11 17:11:37,018] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:11:37,019] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:11:37,084] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:11:37,085] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-11 17:11:37,085] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:37,110] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:37,110] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:11:37,110] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:11:37,111] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:11:37,225] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:11:37,225] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-11 17:11:37,225] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:37,229] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:37,229] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:11:37,229] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:11:37,229] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:11:37,412] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:11:37,412] LoggerInterceptor.java:21 - /spring/stommp/info
+DEBUG:[2021-06-11 17:11:37,412] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:37,416] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:37,416] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:11:37,416] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:11:37,416] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:11:37,436] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:11:37,436] LoggerInterceptor.java:21 - /spring/stommp/078/uu5gk3op/websocket
+DEBUG:[2021-06-11 17:11:37,436] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:37,508] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:11:37,508] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:11:37,508] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:11:37,509] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:11:48,260] StompController.java:30 - app 요청 : 안농
+INFO :[2021-06-11 17:12:04,022] WebSocketMessageBrokerStats.java:124 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 11, active threads = 1, queued tasks = 2, completed tasks = 6]
+INFO :[2021-06-11 17:42:04,023] WebSocketMessageBrokerStats.java:124 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 16, active threads = 1, queued tasks = 2, completed tasks = 439]
+INFO :[2021-06-11 17:42:59,603] CompositeLog.java:132 - Stopping...
+INFO :[2021-06-11 17:42:59,603] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-11 17:42:59,604] CompositeLog.java:132 - Stopped.
+INFO :[2021-06-11 17:43:02,207] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-06-11 17:43:04,964] ContextLoader.java:306 - Root WebApplicationContext initialized in 2754 ms
+INFO :[2021-06-11 17:43:05,021] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-06-11 17:43:08,340] CompositeLog.java:132 - Starting...
+INFO :[2021-06-11 17:43:08,341] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-11 17:43:08,343] CompositeLog.java:132 - Started.
+INFO :[2021-06-11 17:43:08,360] FrameworkServlet.java:546 - Completed initialization in 3338 ms
+DEBUG:[2021-06-11 17:43:16,621] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:43:16,621] LoggerInterceptor.java:21 - /spring/ws/stomp.do
+DEBUG:[2021-06-11 17:43:16,621] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:16,648] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:16,651] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
+DEBUG:[2021-06-11 17:43:17,761] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:43:17,761] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:43:17,839] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:43:17,839] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-11 17:43:17,840] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:17,872] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:17,873] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:43:17,873] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:43:17,874] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:43:18,037] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:43:18,037] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-11 17:43:18,038] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:18,042] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:18,042] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:43:18,043] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:43:18,043] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:43:18,213] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:43:18,213] LoggerInterceptor.java:21 - /spring/stommp/info
+DEBUG:[2021-06-11 17:43:18,214] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:18,217] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:18,218] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:43:18,218] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:43:18,218] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:43:18,228] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:43:18,228] LoggerInterceptor.java:21 - /spring/stommp/033/f2oxskxm/websocket
+DEBUG:[2021-06-11 17:43:18,228] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:18,296] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:43:18,296] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:43:18,297] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:43:18,297] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-11 17:44:08,171] WebSocketMessageBrokerStats.java:124 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 15, active threads = 1, queued tasks = 2, completed tasks = 11]
+DEBUG:[2021-06-11 17:58:21,241] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:58:21,242] LoggerInterceptor.java:21 - /spring/ws/stomp.do
+DEBUG:[2021-06-11 17:58:21,242] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,242] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,242] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
+DEBUG:[2021-06-11 17:58:21,416] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:58:21,416] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:58:21,471] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:58:21,472] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-11 17:58:21,472] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,475] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,475] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:58:21,475] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:58:21,475] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:58:21,606] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:58:21,606] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-11 17:58:21,606] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,608] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,609] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:58:21,609] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:58:21,609] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:58:21,818] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:58:21,818] LoggerInterceptor.java:21 - /spring/stommp/info
+DEBUG:[2021-06-11 17:58:21,818] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,820] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,820] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:58:21,820] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:58:21,820] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 17:58:21,827] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 17:58:21,828] LoggerInterceptor.java:21 - /spring/stommp/585/ionfjyti/websocket
+DEBUG:[2021-06-11 17:58:21,828] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,830] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 17:58:21,831] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 17:58:21,831] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 17:58:21,831] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:11:07,021] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:11:07,021] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-06-11 18:11:07,021] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-11 18:11:07,022] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-06-11 18:11:07,024] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:07,025] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-06-11 18:11:07,036] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:11:07,037] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:11:07,074] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:11:07,074] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-11 18:11:07,075] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:07,077] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:07,077] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 18:11:07,077] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:11:07,077] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:11:07,378] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:11:07,378] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-11 18:11:07,378] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:07,381] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:07,382] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 18:11:07,382] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:11:07,382] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-11 18:11:38,711] CompositeLog.java:132 - Stopping...
+INFO :[2021-06-11 18:11:38,712] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-11 18:11:38,712] CompositeLog.java:132 - Stopped.
+INFO :[2021-06-11 18:11:41,610] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-06-11 18:11:44,460] ContextLoader.java:306 - Root WebApplicationContext initialized in 2847 ms
+INFO :[2021-06-11 18:11:44,552] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-06-11 18:11:47,965] CompositeLog.java:132 - Starting...
+INFO :[2021-06-11 18:11:47,966] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-11 18:11:47,969] CompositeLog.java:132 - Started.
+INFO :[2021-06-11 18:11:47,991] FrameworkServlet.java:546 - Completed initialization in 3439 ms
+DEBUG:[2021-06-11 18:11:54,629] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:11:54,629] LoggerInterceptor.java:21 - /spring/ws/stomp.do
+DEBUG:[2021-06-11 18:11:54,630] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:54,657] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:54,661] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
+DEBUG:[2021-06-11 18:11:54,818] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:11:54,819] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:11:54,886] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:11:54,887] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-11 18:11:54,887] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:54,912] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:54,913] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 18:11:54,913] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:11:54,913] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:11:55,034] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:11:55,035] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-11 18:11:55,035] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:55,039] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:55,039] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 18:11:55,039] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:11:55,039] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:11:55,247] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:11:55,247] LoggerInterceptor.java:21 - /spring/stommp/info
+DEBUG:[2021-06-11 18:11:55,247] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:55,251] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:55,251] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 18:11:55,251] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:11:55,251] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:11:55,261] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:11:55,262] LoggerInterceptor.java:21 - /spring/stommp/236/wtutrvf5/websocket
+DEBUG:[2021-06-11 18:11:55,262] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:55,334] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:11:55,335] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 18:11:55,335] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:11:55,335] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:12:13,061] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:12:13,061] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-06-11 18:12:13,061] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-11 18:12:13,062] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-06-11 18:12:13,065] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:12:13,065] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-06-11 18:12:13,079] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:12:13,080] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:12:16,406] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:12:16,406] LoggerInterceptor.java:21 - /spring/ws/stomp.do
+DEBUG:[2021-06-11 18:12:16,406] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:12:16,406] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:12:16,407] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
+DEBUG:[2021-06-11 18:12:16,410] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:12:16,411] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:12:16,674] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:12:16,675] LoggerInterceptor.java:21 - /spring/stommp/info
+DEBUG:[2021-06-11 18:12:16,675] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:12:16,676] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:12:16,676] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 18:12:16,677] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:12:16,677] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-11 18:12:16,683] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-11 18:12:16,683] LoggerInterceptor.java:21 - /spring/stommp/245/q4a33z22/websocket
+DEBUG:[2021-06-11 18:12:16,683] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-11 18:12:16,685] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-11 18:12:16,685] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-11 18:12:16,685] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-11 18:12:16,685] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-11 18:12:47,756] WebSocketMessageBrokerStats.java:124 - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 21, active threads = 0, queued tasks = 0, completed tasks = 21], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 16, active threads = 1, queued tasks = 3, completed tasks = 12]
+INFO :[2021-06-11 18:42:47,751] WebSocketMessageBrokerStats.java:124 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 33], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 11], sockJsScheduler[pool size = 16, active threads = 1, queued tasks = 2, completed tasks = 462]
+INFO :[2021-06-11 19:12:47,750] WebSocketMessageBrokerStats.java:124 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 33], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 11], sockJsScheduler[pool size = 16, active threads = 1, queued tasks = 2, completed tasks = 895]
+INFO :[2021-06-11 19:26:29,507] CompositeLog.java:132 - Stopping...
+INFO :[2021-06-11 19:26:29,508] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-11 19:26:29,508] CompositeLog.java:132 - Stopped.
