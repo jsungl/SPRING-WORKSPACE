@@ -76,7 +76,7 @@
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 	</section>
 	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
-		<item key="LAST_QUERY" value="cpage"/>
+		<item key="LAST_QUERY" value="csrf"/>
 		<item key="PATH_FILTER" value=""/>
 		<item key="CASE_SENSITIVE" value="true"/>
 		<item key="KEEP_OPEN" value="false"/>
@@ -107,5 +107,11 @@
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value="C:\Users\suver21\Downloads\hello-spring-security.zip"/>
 		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="true"/>
+		<item key="DIALOG_WIDTH" value="666"/>
+		<item key="DIALOG_HEIGHT" value="482"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

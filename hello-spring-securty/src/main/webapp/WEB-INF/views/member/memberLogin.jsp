@@ -72,6 +72,7 @@ $(() => {
 					<div class="modal-footer justify-content-between">
 						<div>
 							<input type="checkbox" class="form-check-input" name="remember-me" id="remember-me"/>
+							<!-- 체크시 remember-me=on -->
 							<label for="remember-me" class="form-check-label">Remember me</label>
 						</div>
 						<div>

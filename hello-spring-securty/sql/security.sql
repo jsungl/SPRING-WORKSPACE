@@ -38,4 +38,33 @@ from authority
 where id = 'admin';
 
 
+--security의 remember-me 사용을 위한 persistent_logins 테이블 생성
+create table persistent_logins (
+    username varchar2(64) not null, --사용자아이디
+    series varchar2(64) primary key, --
+    token varchar2(64) not null, -- username,password, 만료시간(expiry time)에 대한 임의의 hashing값(단방향 : 결과물로 유추못함)
+    last_used timestamp not null
+);
+
+
+select * from persistent_logins;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
