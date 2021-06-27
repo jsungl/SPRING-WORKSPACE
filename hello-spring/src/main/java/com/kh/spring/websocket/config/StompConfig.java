@@ -32,12 +32,14 @@ public class StompConfig implements WebSocketMessageBrokerConfigurer{
 	public void configureMessageBroker(MessageBrokerRegistry registry) {
 		//1. SimpleBroker
 		//registry.enableSimpleBroker("/topic", "/animal", "/coffee") //개수제한없음
-		registry.enableSimpleBroker("/topic", "/bpp");
+		//registry.enableSimpleBroker("/topic", "/bpp");
+		registry.enableSimpleBroker("/notice");
 		
 		
 		//2. MessageHandler : /app/a -> @MessageMapping("/a")
 		//registry.setApplicationDestinationPrefixes("/app", "/bpp", "/cpp") //개수제한없음
-		registry.setApplicationDestinationPrefixes("/app");
+		//registry.setApplicationDestinationPrefixes("/app");
+		registry.setApplicationDestinationPrefixes("/admin"); //관리자만 공지메세지전달?
 		
 		
 	}

@@ -6,17 +6,23 @@
 <jsp:include page="/WEB-INF/views/common/header.jsp">
 	<jsp:param value="Stomp" name="title"/>
 </jsp:include>
+<c:if test="${loginMember.id eq 'admin'}">
 	<div class="input-group mb-3">
 		<select id="stomp-url" class="form-select mr-1">
 			<option value="">전송url</option>
-			<option value="/topic/a">/topic/a</option>
-			<option value="/app/a">/app/a</option>
+			<option value="/admin/notice">/admin/notice</option>
+			<option value="/admin/notice/honggd">/admin/notice/honggd</option>
 		</select>
 	    <input type="text" id="message" class="form-control" placeholder="Message">
 	    <div class="input-group-append" style="padding: 0px;">
 	        <button id="sendBtn" class="btn btn-outline-secondary" type="button">Send</button>
 	    </div>
     </div>
+    
+ <button id="ajaxBtn" class="btn btn-outline-primary" type="button">비동기요청</button>
+    
+    
+</c:if>
     
     <div>
         <ul class="list-group list-group-flush" id="data"></ul>
@@ -30,6 +36,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.12.1/polyfill.js" integrity="sha512-wixq/u8vbwoVM6yCmTHUNszWudaPpwf8pKxfG1NPUOBXTh1ntBx8sr/dJSbGTlZUqpcoPjaUmU1hlBB3oJlzFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script type="text/babel">
+$("#ajaxBtn").click(() => {
+	
+	$.ajax({
+		url: "${pageContext.request.contextPath}/ws/someRequest.do",
+		success(data) {
+			console.log(data);
+		},
+		error: console.log
+
+	});
+
+
+});
+
+
+
+
+
+
 /**
  * sock.js
  * html5api websocket을 지원하지 않는 브라우저에서도 양방향 통신을 사용
@@ -47,13 +72,35 @@ stompClient.connect({},frame => {
 	console.log("stomp connected : ", frame);
 	
 	//구독
-	stompClient.subscribe("/topic/a", message => {
-		console.log("message frm /topic/a : ", message);
+	stompClient.subscribe("/notice", frame => {
+		console.log("message from /notice : ", frame);
+		displayMessage(frame);
 	});
-	stompClient.subscribe("/bpp/a", message => {
-		console.log("message frm /bpp/a : ", message);
+	stompClient.subscribe("/notice/${loginMember.id}", frame => {
+		console.log("message from /notice/${loginMember.id} : ", frame);
+		displayMessage(frame);
 	});
 });
+
+const displayMessage = ({body}) => {
+	//1. json -> js object
+	let obj = JSON.parse(body);
+	console.log(obj);
+	
+	//2. 내용만 구조분해할당
+	const {message} = obj;
+	let html = `<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		  <strong>\${message}</strong>
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    <span aria-hidden="true">&times;</span>
+		  </button>
+		</div>`;
+	
+	//3. #content prepend(자식요소로 맨앞에 추가하기)
+	const $content = $("#content");
+	$content.prepend(html);
+};
+
 
 
 
@@ -67,8 +114,18 @@ const sendMessage = () => {
 	}
 
 	const $message = $("#message");
+	
+	const msg = {
+		from : "${loginMember.id}",
+		to : url === "/admin/notice" ? "all" : "honggd",
+		message : $message.val(),
+		type : "NOTICE",
+		time : Date.now()
+	};
+	console.log(msg);
+
 	if($message.val()){
-		stompClient.send(url, {}, $message.val());
+		stompClient.send(url, {}, JSON.stringify(msg));
 		$message.val("").focus();
 	}
 };

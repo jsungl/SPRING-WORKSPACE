@@ -119,9 +119,14 @@ public class MemberController {
 //			SimpleGrantedAuthority simpleGrantedAuthority = new SimpleGrantedAuthority(auth.getAuthority());
 //			authorities.add(simpleGrantedAuthority);
 //		}
-		
+		log.debug("authorities = {}", authorities);
 		updateMember.setPassword(((Member)oldAuthentication.getPrincipal()).getPassword());
 		updateMember.setAuthorities(authorities);
+		
+		log.debug("getCredentials = {}",oldAuthentication.getCredentials()); //null
+		log.debug("getAuthorties = {}",oldAuthentication.getAuthorities()); //[ROLE_USER]
+		
+		
 		
 		//새로운 authentication객체 생성(security context 에서 principal 갱신)
 		Authentication newAuthentication = new UsernamePasswordAuthenticationToken(
