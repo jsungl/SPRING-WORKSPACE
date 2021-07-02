@@ -1,1047 +1,440 @@
-INFO :[2021-06-15 15:56:19,294] ContextLoader.java:270 - Root WebApplicationContext: initialization started
-INFO :[2021-06-15 15:56:21,895] ContextLoader.java:306 - Root WebApplicationContext initialized in 2597 ms
-INFO :[2021-06-15 15:56:21,977] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
-INFO :[2021-06-15 15:56:25,051] CompositeLog.java:132 - Starting...
-INFO :[2021-06-15 15:56:25,051] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 15:56:25,060] CompositeLog.java:132 - Started.
-INFO :[2021-06-15 15:56:25,075] FrameworkServlet.java:546 - Completed initialization in 3097 ms
-DEBUG:[2021-06-15 15:56:35,060] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:35,060] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 15:56:35,060] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 15:56:35,075] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 15:56:35,087] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:35,091] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 15:56:35,228] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:35,229] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 15:56:35,271] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:35,272] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 15:56:35,272] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:35,271] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:35,272] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 15:56:35,272] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:35,292] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:35,292] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 15:56:35,292] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:35,293] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 15:56:35,293] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:35,293] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 15:56:35,293] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:35,294] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 15:56:44,537] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:44,537] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 15:56:44,537] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:44,539] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:44,539] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 15:56:44,571] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:44,572] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 15:56:44,572] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 15:56:44,577] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 15:56:44,606] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 15:56:44,606] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 15:56:44,618] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:44,619] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 15:56:45,554] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:45,555] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 15:56:47,171] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:47,171] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 15:56:47,171] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 15:56:47,175] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 15:56:47,733] MemberController.java:163 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=2021-05-14, email=honggd@naver.com, phone=01012341234, address=null, hobby=[등산, 독서, 여행], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 15:56:47,796] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 15:56:47,797] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:47,797] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 15:56:47,803] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:47,803] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 15:56:47,819] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:47,820] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 15:56:47,820] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:47,820] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:47,820] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 15:56:47,986] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:47,986] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 15:56:48,354] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:48,355] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 15:56:48,355] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:48,355] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:48,356] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 15:56:48,356] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:48,356] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 15:56:48,363] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 15:56:48,364] LoggerInterceptor.java:21 - /spring/stommp/667/piq0qnzm/websocket
-DEBUG:[2021-06-15 15:56:48,364] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:48,424] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 15:56:48,425] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 15:56:48,425] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 15:56:48,425] LoggerInterceptor.java:47 - ____________________end_____________________
-INFO :[2021-06-15 15:57:24,899] WebSocketMessageBrokerStats.java:124 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 13, active threads = 1, queued tasks = 2, completed tasks = 9]
-INFO :[2021-06-15 16:10:39,184] CompositeLog.java:132 - Stopping...
-INFO :[2021-06-15 16:10:39,184] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 16:10:39,185] CompositeLog.java:132 - Stopped.
-INFO :[2021-06-15 16:10:41,808] ContextLoader.java:270 - Root WebApplicationContext: initialization started
-INFO :[2021-06-15 16:10:44,710] ContextLoader.java:306 - Root WebApplicationContext initialized in 2898 ms
-INFO :[2021-06-15 16:10:44,814] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
-INFO :[2021-06-15 16:10:48,613] CompositeLog.java:132 - Starting...
-INFO :[2021-06-15 16:10:48,614] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 16:10:48,617] CompositeLog.java:132 - Started.
-INFO :[2021-06-15 16:10:48,640] FrameworkServlet.java:546 - Completed initialization in 3826 ms
-DEBUG:[2021-06-15 16:10:53,558] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:10:53,559] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 16:10:53,559] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:10:53,574] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 16:10:53,585] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:10:53,588] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 16:10:53,709] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:10:53,709] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:10:53,774] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:10:53,774] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 16:10:53,774] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:10:53,780] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:10:53,780] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:10:53,780] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:10:53,781] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:10:53,785] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:10:53,786] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:10:53,786] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:10:53,788] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:10:53,788] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:10:53,789] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:10:53,789] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:00,010] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:00,011] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:11:00,011] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:00,012] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:00,012] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:00,036] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:00,037] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:11:00,037] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:11:00,042] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:11:00,066] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 16:11:00,067] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:11:00,077] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:00,078] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 16:11:00,097] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:00,097] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:01,699] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:01,699] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:11:01,699] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:11:01,711] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:11:02,244] MemberController.java:163 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=2021-05-14, email=honggd@naver.com, phone=01012341234, address=null, hobby=[등산, 독서, 여행], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 16:11:02,308] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:11:02,308] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:02,308] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 16:11:02,314] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:02,314] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:02,318] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:02,318] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:11:02,318] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:02,319] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:02,319] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:11:03,225] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:03,225] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:03,445] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:03,446] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:11:03,446] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:03,448] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:03,448] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:11:03,449] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:03,449] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:03,459] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:03,459] LoggerInterceptor.java:21 - /spring/stommp/913/mvbmjikc/websocket
-DEBUG:[2021-06-15 16:11:03,460] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:03,512] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:03,513] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:11:03,513] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:03,513] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:09,621] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:09,621] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 16:11:09,621] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:11:09,621] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 16:11:09,622] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:09,622] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 16:11:09,628] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:09,628] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:14,550] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:14,550] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:11:14,550] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:11:14,551] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:11:14,551] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 16:11:14,551] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:11:14,552] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:14,552] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 16:11:14,555] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:14,555] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:24,078] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:24,078] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:11:24,078] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:11:24,079] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:11:24,083] MemberController.java:163 - member = Member(id=admin, password=$2a$10$D8gjn88unUZvff1SfDrQwe3fIon37Yyx9w3QIgaCR9QWhvqcBdDXS, name=관리자, gender=F, birthday=1990-12-25, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 16:11:24,139] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:11:24,140] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:24,140] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 16:11:24,141] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:24,141] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:24,158] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:24,158] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:11:24,159] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:24,159] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:24,159] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:11:24,165] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:24,165] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:24,657] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:24,658] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:11:24,658] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:24,658] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:24,658] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:11:24,659] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:24,659] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:24,667] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:24,667] LoggerInterceptor.java:21 - /spring/stommp/687/4o51qqwj/websocket
-DEBUG:[2021-06-15 16:11:24,667] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:24,669] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:24,669] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:11:24,670] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:24,670] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:29,347] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:29,347] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:11:29,347] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:29,347] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:29,347] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:11:29,353] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:29,353] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:29,553] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:29,553] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:11:29,553] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:29,554] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:29,554] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:11:29,554] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:29,554] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:11:29,562] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:11:29,563] LoggerInterceptor.java:21 - /spring/stommp/377/bspvtztb/websocket
-DEBUG:[2021-06-15 16:11:29,563] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:29,565] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:11:29,565] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:11:29,565] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:11:29,565] LoggerInterceptor.java:47 - ____________________end_____________________
-INFO :[2021-06-15 16:11:48,373] WebSocketMessageBrokerStats.java:124 - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 3 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(3)-CONNECTED(3)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 32, active threads = 1, queued tasks = 0, completed tasks = 32], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 16, active threads = 1, queued tasks = 3, completed tasks = 10]
-DEBUG:[2021-06-15 16:11:48,547] StompController.java:40 - notice = Notice(from=admin, to=all, message=전체공지, type=NOTICE, time=1623741108295)
-DEBUG:[2021-06-15 16:12:10,862] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:12:10,862] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:12:10,863] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:10,863] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:10,863] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:12:10,871] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:12:10,871] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:12:11,045] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:12:11,046] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:12:11,046] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:11,046] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:11,046] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:12:11,046] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:12:11,046] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:12:11,052] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:12:11,052] LoggerInterceptor.java:21 - /spring/stommp/784/vaimsv5d/websocket
-DEBUG:[2021-06-15 16:12:11,052] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:11,054] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:11,054] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:12:11,054] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:12:11,054] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:12:57,264] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:12:57,264] LoggerInterceptor.java:21 - /spring/ws/websocket.do
-DEBUG:[2021-06-15 16:12:57,264] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:57,264] WebsocketController.java:16 - websocketController~~~~~~~~~~~~~
-DEBUG:[2021-06-15 16:12:57,264] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:57,264] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/websocket"; model={}]
-DEBUG:[2021-06-15 16:12:57,444] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:12:57,445] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:12:57,503] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:12:57,503] LoggerInterceptor.java:21 - /spring/websoocket
-DEBUG:[2021-06-15 16:12:57,503] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:57,504] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:57,504] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:12:57,504] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:12:57,504] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:12:59,937] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:12:59,938] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:12:59,938] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:59,938] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:12:59,939] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:12:59,943] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:12:59,943] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:13:00,176] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:13:00,177] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:13:00,177] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:13:00,177] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:13:00,177] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:13:00,177] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:13:00,178] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:13:00,221] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:13:00,221] LoggerInterceptor.java:21 - /spring/stommp/275/vdukw1n4/websocket
-DEBUG:[2021-06-15 16:13:00,221] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:13:00,223] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:13:00,224] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:13:00,224] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:13:00,224] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:16:03,408] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:16:03,408] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:16:03,408] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:16:03,409] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:16:03,409] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:16:03,416] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:16:03,416] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:16:03,727] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:16:03,728] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:16:03,728] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:16:03,731] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:16:03,731] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:16:03,732] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:16:03,732] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:16:03,819] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:16:03,819] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:16:03,819] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:16:03,820] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:16:03,820] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:16:03,820] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:16:03,820] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:16:03,848] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:16:03,848] LoggerInterceptor.java:21 - /spring/stommp/007/3t1iiay3/websocket
-DEBUG:[2021-06-15 16:16:03,848] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:16:03,850] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:16:03,850] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:16:03,850] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:16:03,850] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:18:17,666] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:18:17,666] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:18:17,666] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:17,667] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:17,667] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:18:17,844] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:18:17,844] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:18:17,891] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:18:17,892] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 16:18:17,892] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:17,899] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:17,900] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:18:17,900] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:18:17,900] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:18:18,034] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:18:18,035] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:18:18,035] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:18,037] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:18,038] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:18:18,038] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:18:18,038] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:18:18,221] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:18:18,221] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:18:18,221] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:18,222] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:18,222] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:18:18,222] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:18:18,222] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:18:18,232] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:18:18,232] LoggerInterceptor.java:21 - /spring/stommp/657/ckjs1v2r/websocket
-DEBUG:[2021-06-15 16:18:18,232] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:18,233] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:18:18,234] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:18:18,234] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:18:18,234] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:18:29,514] StompController.java:40 - notice = Notice(from=admin, to=all, message=반갑습니다 헤헤, type=NOTICE, time=1623741509510)
-DEBUG:[2021-06-15 16:19:02,033] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:19:02,033] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:19:02,033] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:19:02,033] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:19:02,033] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:19:02,041] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:19:02,041] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:19:02,354] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:19:02,354] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:19:02,354] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:19:02,357] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:19:02,357] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:19:02,358] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:19:02,358] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:19:02,447] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:19:02,447] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:19:02,447] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:19:02,448] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:19:02,448] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:19:02,448] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:19:02,448] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:19:02,468] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:19:02,468] LoggerInterceptor.java:21 - /spring/stommp/790/c4gbn3lt/websocket
-DEBUG:[2021-06-15 16:19:02,468] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:19:02,470] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:19:02,470] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:19:02,470] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:19:02,470] LoggerInterceptor.java:47 - ____________________end_____________________
-INFO :[2021-06-15 16:24:34,859] CompositeLog.java:132 - Stopping...
-INFO :[2021-06-15 16:24:34,860] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 16:24:34,860] CompositeLog.java:132 - Stopped.
-INFO :[2021-06-15 16:24:37,603] ContextLoader.java:270 - Root WebApplicationContext: initialization started
-INFO :[2021-06-15 16:24:40,511] ContextLoader.java:306 - Root WebApplicationContext initialized in 2905 ms
-INFO :[2021-06-15 16:24:40,594] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
-INFO :[2021-06-15 16:24:44,073] CompositeLog.java:132 - Starting...
-INFO :[2021-06-15 16:24:44,074] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 16:24:44,077] CompositeLog.java:132 - Started.
-INFO :[2021-06-15 16:24:44,097] FrameworkServlet.java:546 - Completed initialization in 3503 ms
-INFO :[2021-06-15 16:25:43,877] WebSocketMessageBrokerStats.java:124 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
-DEBUG:[2021-06-15 16:29:24,911] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:24,911] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 16:29:24,911] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:29:24,926] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 16:29:24,937] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:24,940] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 16:29:25,050] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:25,050] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:32,119] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:32,119] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:29:32,120] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:32,121] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:32,121] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:32,160] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:32,160] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:29:32,161] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:29:32,166] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:29:32,194] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 16:29:32,194] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:29:32,207] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:32,207] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 16:29:32,232] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:32,232] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:39,821] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:39,821] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:29:39,821] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:29:39,833] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:29:40,341] MemberController.java:163 - member = Member(id=admin, password=$2a$10$D8gjn88unUZvff1SfDrQwe3fIon37Yyx9w3QIgaCR9QWhvqcBdDXS, name=관리자, gender=F, birthday=1990-12-25, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 16:29:40,404] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:29:40,405] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:40,405] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 16:29:40,410] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:40,411] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:40,427] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:40,428] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:29:40,428] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:40,428] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:40,428] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:29:41,310] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:41,310] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:41,607] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:41,608] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:29:41,608] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:41,610] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:41,610] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:29:41,610] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:41,610] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:41,620] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:41,621] LoggerInterceptor.java:21 - /spring/stommp/759/btwprsib/websocket
-DEBUG:[2021-06-15 16:29:41,621] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:41,668] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:41,668] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:29:41,668] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:41,668] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:49,315] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:49,315] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 16:29:49,316] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:29:49,316] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 16:29:49,316] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:49,316] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 16:29:49,321] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:49,322] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:53,566] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:53,566] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:29:53,566] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:53,566] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:53,567] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:53,574] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:53,575] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:29:53,575] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:29:53,575] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:29:53,576] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 16:29:53,576] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:29:53,576] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:53,576] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 16:29:53,579] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:53,579] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:55,451] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:55,452] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:29:55,452] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:29:55,453] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:29:55,456] MemberController.java:163 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=2021-05-14, email=honggd@naver.com, phone=01012341234, address=null, hobby=[등산, 독서, 여행], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 16:29:55,513] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:29:55,514] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:55,514] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 16:29:55,514] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:55,514] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:55,519] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:55,519] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:29:55,519] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:55,519] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:55,520] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:29:55,526] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:55,526] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:55,860] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:55,860] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:29:55,860] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:55,860] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:55,860] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:29:55,861] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:55,861] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:29:55,878] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:29:55,878] LoggerInterceptor.java:21 - /spring/stommp/809/vihw22t4/websocket
-DEBUG:[2021-06-15 16:29:55,878] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:55,880] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:29:55,880] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:29:55,880] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:29:55,880] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:30:42,862] StompController.java:40 - notice = Notice(from=admin, to=all, message=전체공지입니다, type=NOTICE, time=1623742242621)
-DEBUG:[2021-06-15 16:38:22,830] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:38:22,830] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:38:22,830] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:22,831] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:22,831] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:38:23,013] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:38:23,014] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:38:23,110] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:38:23,110] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 16:38:23,110] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:23,120] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:23,121] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:38:23,121] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:38:23,121] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:38:23,267] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:38:23,267] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:38:23,268] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:23,270] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:23,270] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:38:23,270] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:38:23,270] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:38:26,534] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:38:26,535] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:38:26,535] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:26,535] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:26,535] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:38:26,537] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:38:26,537] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:38:27,123] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:38:27,124] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:38:27,124] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:27,127] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:38:27,128] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:38:27,128] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:38:27,128] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:39:02,479] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:39:02,480] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:39:02,480] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:02,480] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:02,480] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:39:02,487] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:39:02,487] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:39:02,524] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:39:02,525] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 16:39:02,525] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:02,527] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:02,527] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:39:02,527] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:39:02,527] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:39:02,716] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:39:02,716] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:39:02,716] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:02,720] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:02,721] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:39:02,721] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:39:02,721] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:39:05,463] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:39:05,463] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:39:05,463] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:05,463] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:05,464] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:39:05,465] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:39:05,465] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:39:13,182] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:39:13,182] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:39:13,182] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:13,182] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:39:13,182] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:39:13,188] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:39:13,188] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:40:35,715] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:40:35,715] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:40:35,715] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:40:35,716] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:40:35,716] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:40:35,894] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:40:35,895] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:40:35,941] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:40:35,941] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 16:40:35,941] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:40:35,944] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:40:35,944] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:40:35,944] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:40:35,944] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:40:36,084] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:40:36,084] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:40:36,084] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:40:36,088] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:40:36,088] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:40:36,088] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:40:36,088] LoggerInterceptor.java:47 - ____________________end_____________________
-INFO :[2021-06-15 16:40:49,376] CompositeLog.java:132 - Stopping...
-INFO :[2021-06-15 16:40:49,376] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 16:40:49,376] CompositeLog.java:132 - Stopped.
-INFO :[2021-06-15 16:40:52,030] ContextLoader.java:270 - Root WebApplicationContext: initialization started
-INFO :[2021-06-15 16:40:54,766] ContextLoader.java:306 - Root WebApplicationContext initialized in 2732 ms
-INFO :[2021-06-15 16:40:54,849] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
-INFO :[2021-06-15 16:40:58,185] CompositeLog.java:132 - Starting...
-INFO :[2021-06-15 16:40:58,186] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 16:40:58,189] CompositeLog.java:132 - Started.
-INFO :[2021-06-15 16:40:58,208] FrameworkServlet.java:546 - Completed initialization in 3358 ms
-DEBUG:[2021-06-15 16:41:03,656] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:03,656] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:41:03,657] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:03,661] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:03,661] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:41:03,704] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:03,704] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:41:03,704] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:41:03,719] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:41:03,752] MemberController.java:150 - referer = http://localhost:9090/spring/ws/stomp.do?null
-INFO :[2021-06-15 16:41:03,752] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:41:03,773] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:03,774] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 16:41:03,877] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:03,878] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:41:03,928] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:03,929] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 16:41:03,929] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:03,948] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:03,948] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:41:03,949] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:03,949] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:41:09,603] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:09,603] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:41:09,603] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:41:09,607] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:41:10,132] MemberController.java:163 - member = Member(id=admin, password=$2a$10$D8gjn88unUZvff1SfDrQwe3fIon37Yyx9w3QIgaCR9QWhvqcBdDXS, name=관리자, gender=F, birthday=1990-12-25, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 16:41:10,196] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:41:10,196] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:10,196] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 16:41:10,202] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:10,203] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:41:10,219] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:10,219] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:41:10,220] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:10,220] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:10,220] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:41:10,245] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:10,245] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:41:17,045] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:17,045] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:41:17,046] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:17,046] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:17,046] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:41:17,049] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:17,050] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:41:17,050] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:41:17,051] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:41:17,051] MemberController.java:150 - referer = http://localhost:9090/spring/ws/stomp.do?null
-INFO :[2021-06-15 16:41:17,052] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:41:17,052] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:17,053] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 16:41:17,056] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:17,056] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:41:18,896] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:18,897] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:41:18,897] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:41:18,897] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:41:18,903] MemberController.java:163 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=2021-05-14, email=honggd@naver.com, phone=01012341234, address=null, hobby=[등산, 독서, 여행], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 16:41:18,960] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:41:18,961] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:18,961] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 16:41:18,961] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:18,961] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:41:18,967] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:41:18,967] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:41:18,967] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:18,968] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:41:18,968] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:41:18,974] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:41:18,975] LoggerInterceptor.java:47 - ____________________end_____________________
-INFO :[2021-06-15 16:41:57,976] WebSocketMessageBrokerStats.java:124 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
-DEBUG:[2021-06-15 16:42:14,202] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:14,202] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:42:14,202] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:14,203] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:14,203] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:42:15,070] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:15,071] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:15,128] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:15,129] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 16:42:15,129] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:15,133] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:15,133] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:42:15,133] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:15,133] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:15,291] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:15,292] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:42:15,292] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:15,295] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:15,295] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:42:15,296] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:15,296] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:15,485] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:15,485] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:42:15,486] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:15,487] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:15,487] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:42:15,488] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:15,488] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:15,495] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:15,495] LoggerInterceptor.java:21 - /spring/stommp/892/eqt0ev1o/websocket
-DEBUG:[2021-06-15 16:42:15,495] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:15,540] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:15,540] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:42:15,540] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:15,540] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:18,559] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:18,559] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:42:18,560] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:18,560] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:18,560] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:42:18,563] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:18,564] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:18,874] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:18,875] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:42:18,875] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:18,877] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:18,877] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:42:18,878] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:18,878] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:18,958] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:18,959] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:42:18,959] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:18,959] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:18,959] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:42:18,959] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:18,959] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:18,971] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:42:18,971] LoggerInterceptor.java:21 - /spring/stommp/256/olvac1s2/websocket
-DEBUG:[2021-06-15 16:42:18,971] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:18,973] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:42:18,973] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:42:18,973] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:42:18,973] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:42:26,758] StompController.java:40 - notice = Notice(from=admin, to=all, message=공지공지, type=NOTICE, time=1623742946521)
-INFO :[2021-06-15 16:51:58,854] CompositeLog.java:132 - Stopping...
-INFO :[2021-06-15 16:51:58,854] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 16:51:58,855] CompositeLog.java:132 - Stopped.
-INFO :[2021-06-15 16:52:01,482] ContextLoader.java:270 - Root WebApplicationContext: initialization started
-INFO :[2021-06-15 16:52:04,290] ContextLoader.java:306 - Root WebApplicationContext initialized in 2804 ms
-INFO :[2021-06-15 16:52:04,381] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
-INFO :[2021-06-15 16:52:07,674] CompositeLog.java:132 - Starting...
-INFO :[2021-06-15 16:52:07,674] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 16:52:07,676] CompositeLog.java:132 - Started.
-INFO :[2021-06-15 16:52:07,694] FrameworkServlet.java:546 - Completed initialization in 3312 ms
-DEBUG:[2021-06-15 16:52:41,828] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:52:41,828] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 16:52:41,828] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:52:41,843] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 16:52:41,856] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:41,859] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 16:52:41,982] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:52:41,982] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:52:44,850] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:52:44,851] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:52:44,851] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:44,852] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:52:44,852] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:52:44,891] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:52:44,892] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:52:44,892] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:52:44,897] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:52:44,928] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 16:52:44,928] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:52:44,940] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:44,941] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 16:52:44,964] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:52:44,965] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:52:49,423] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:52:49,423] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:52:49,424] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:52:49,434] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:52:49,934] MemberController.java:163 - member = Member(id=admin, password=$2a$10$D8gjn88unUZvff1SfDrQwe3fIon37Yyx9w3QIgaCR9QWhvqcBdDXS, name=관리자, gender=F, birthday=1990-12-25, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 16:52:49,998] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:52:49,998] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:49,999] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 16:52:50,004] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:52:50,004] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:52:50,024] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:52:50,024] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:52:50,025] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:50,025] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:50,025] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:52:50,914] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:52:50,914] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:52:51,215] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:52:51,215] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:52:51,215] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:51,217] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:51,217] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:52:51,217] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:52:51,217] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:52:51,225] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:52:51,225] LoggerInterceptor.java:21 - /spring/stommp/324/azohcpdz/websocket
-DEBUG:[2021-06-15 16:52:51,225] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:51,271] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:52:51,271] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:52:51,271] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:52:51,271] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:53:00,196] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:53:00,196] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 16:53:00,196] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:53:00,196] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 16:53:00,197] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:00,197] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 16:53:00,205] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:53:00,205] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:53:04,287] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:53:04,287] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:53:04,287] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:04,288] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:53:04,288] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:53:04,292] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:53:04,292] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:53:04,292] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:53:04,292] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:53:04,293] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 16:53:04,293] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:53:04,293] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:04,293] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 16:53:04,296] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:53:04,296] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:53:05,709] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:53:05,709] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 16:53:05,709] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 16:53:05,710] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 16:53:05,714] MemberController.java:163 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=2021-05-14, email=honggd@naver.com, phone=01012341234, address=null, hobby=[등산, 독서, 여행], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 16:53:05,773] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 16:53:05,773] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:05,773] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 16:53:05,774] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:53:05,774] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:53:05,779] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:53:05,779] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:53:05,779] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:05,780] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:05,780] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:53:05,786] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:53:05,786] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:53:06,137] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:53:06,137] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:53:06,137] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:06,138] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:06,138] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:53:06,138] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:53:06,138] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:53:06,152] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:53:06,152] LoggerInterceptor.java:21 - /spring/stommp/919/jaiv2lt3/websocket
-DEBUG:[2021-06-15 16:53:06,152] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:06,154] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:53:06,154] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:53:06,154] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:53:06,154] LoggerInterceptor.java:47 - ____________________end_____________________
-INFO :[2021-06-15 16:53:07,501] WebSocketMessageBrokerStats.java:124 - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 18, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 10, active threads = 1, queued tasks = 3, completed tasks = 4]
-DEBUG:[2021-06-15 16:53:30,791] StompController.java:48 - notice = Notice(from=admin, to=honggd, message=honggd한테만 보내는 메세지, type=NOTICE, time=1623743610545)
-DEBUG:[2021-06-15 16:53:30,791] StompController.java:49 - memberId = honggd
-DEBUG:[2021-06-15 16:55:14,465] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:14,465] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:55:14,465] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:14,465] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:14,465] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:55:14,664] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:14,664] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:14,723] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:14,724] LoggerInterceptor.java:21 - /spring/resources/css/style.css
-DEBUG:[2021-06-15 16:55:14,724] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:14,733] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:14,733] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:55:14,733] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:14,733] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:14,881] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:14,881] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:55:14,881] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:14,884] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:14,884] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:55:14,884] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:14,884] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:15,070] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:15,070] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:55:15,070] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:15,071] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:15,071] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:55:15,071] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:15,071] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:15,079] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:15,079] LoggerInterceptor.java:21 - /spring/stommp/187/cjto21zq/websocket
-DEBUG:[2021-06-15 16:55:15,079] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:15,081] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:15,081] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:55:15,081] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:15,081] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:16,599] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:16,599] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 16:55:16,599] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:16,599] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:16,599] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 16:55:16,601] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:16,601] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:16,904] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:16,904] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
-DEBUG:[2021-06-15 16:55:16,905] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:16,908] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:16,909] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:55:16,909] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:16,909] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:16,998] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:16,998] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 16:55:16,998] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:16,998] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:16,998] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:55:16,998] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:16,999] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:17,018] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 16:55:17,018] LoggerInterceptor.java:21 - /spring/stommp/598/dez0pk4c/websocket
-DEBUG:[2021-06-15 16:55:17,018] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:17,020] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 16:55:17,020] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 16:55:17,020] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 16:55:17,020] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 16:55:28,011] StompController.java:48 - notice = Notice(from=admin, to=honggd, message=honggd한테만 보냄, type=NOTICE, time=1623743728008)
-DEBUG:[2021-06-15 16:55:28,012] StompController.java:49 - memberId = honggd
-INFO :[2021-06-15 17:13:47,411] CompositeLog.java:132 - Stopping...
-INFO :[2021-06-15 17:13:47,412] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 17:13:47,412] CompositeLog.java:132 - Stopped.
-INFO :[2021-06-15 17:13:50,082] ContextLoader.java:270 - Root WebApplicationContext: initialization started
-INFO :[2021-06-15 17:13:52,743] ContextLoader.java:306 - Root WebApplicationContext initialized in 2658 ms
-INFO :[2021-06-15 17:13:52,835] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
-INFO :[2021-06-15 17:13:55,910] CompositeLog.java:132 - Starting...
-INFO :[2021-06-15 17:13:55,910] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 17:13:55,912] CompositeLog.java:132 - Started.
-INFO :[2021-06-15 17:13:55,927] FrameworkServlet.java:546 - Completed initialization in 3091 ms
-DEBUG:[2021-06-15 17:14:02,523] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:02,524] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 17:14:02,524] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 17:14:02,540] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 17:14:02,552] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:02,555] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 17:14:02,671] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:02,671] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:07,737] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:07,738] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 17:14:07,738] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:07,739] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:07,740] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:07,778] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:07,779] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 17:14:07,779] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 17:14:07,784] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 17:14:07,816] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 17:14:07,816] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 17:14:07,830] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:07,830] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 17:14:07,852] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:07,852] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:13,526] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:13,526] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 17:14:13,526] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 17:14:13,539] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 17:14:14,045] MemberController.java:163 - member = Member(id=admin, password=$2a$10$D8gjn88unUZvff1SfDrQwe3fIon37Yyx9w3QIgaCR9QWhvqcBdDXS, name=관리자, gender=F, birthday=1990-12-25, email=admin@naver.com, phone=01012345678, address=서울시 강남구, hobby=[독서], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 17:14:14,109] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 17:14:14,110] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:14,110] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 17:14:14,116] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:14,116] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:14,133] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:14,133] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 17:14:14,133] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:14,134] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:14,134] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 17:14:15,013] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:15,014] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:15,301] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:15,301] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 17:14:15,301] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:15,303] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:15,303] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 17:14:15,303] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:15,303] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:15,311] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:15,311] LoggerInterceptor.java:21 - /spring/stommp/345/bxhty00h/websocket
-DEBUG:[2021-06-15 17:14:15,312] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:15,359] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:15,359] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 17:14:15,360] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:15,360] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:25,017] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:25,017] LoggerInterceptor.java:21 - /spring/
-DEBUG:[2021-06-15 17:14:25,017] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 17:14:25,018] HomeController.java:30 - index 페이지 요청
-DEBUG:[2021-06-15 17:14:25,018] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:25,018] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
-DEBUG:[2021-06-15 17:14:25,026] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:25,026] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:30,624] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:30,624] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 17:14:30,624] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:30,624] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:30,625] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:30,629] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:30,630] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 17:14:30,630] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 17:14:30,630] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 17:14:30,630] MemberController.java:150 - referer = http://localhost:9090/spring/
-INFO :[2021-06-15 17:14:30,631] MemberController.java:151 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 17:14:30,631] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:30,631] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="member/memberLogin"; model={msg=로그인 후 사용하실 수 있습니다., next=http://localhost:9090/spring/ws/stomp.do?null, common={adminPhone=070-1234-5678, adminEmail=admin@kh.or.kr}, org.springframework.validation.BindingResult.next=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]
-DEBUG:[2021-06-15 17:14:30,634] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:30,635] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:31,977] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:31,977] LoggerInterceptor.java:21 - /spring/member/memberLogin.do
-DEBUG:[2021-06-15 17:14:31,978] LoggerInterceptor.java:22 - ---------------------------------------------
-INFO :[2021-06-15 17:14:31,978] MemberController.java:93 - @ModelAttribute("common")
-INFO :[2021-06-15 17:14:31,982] MemberController.java:163 - member = Member(id=honggd, password=$2a$10$58P5ZogXEOyZbwCYwYX2fOwsuu6CogrAAaY.l//XUYvClKbzvV5l6, name=홍길동, gender=M, birthday=2021-05-14, email=honggd@naver.com, phone=01012341234, address=null, hobby=[등산, 독서, 여행], enrollDate=2021-05-20, enabled=true)
-INFO :[2021-06-15 17:14:32,040] MemberController.java:184 - next = http://localhost:9090/spring/ws/stomp.do?null
-DEBUG:[2021-06-15 17:14:32,041] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:32,041] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="redirect:http://localhost:9090/spring/ws/stomp.do?null"; model={}]
-DEBUG:[2021-06-15 17:14:32,041] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:32,041] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:32,046] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:32,046] LoggerInterceptor.java:21 - /spring/ws/stomp.do
-DEBUG:[2021-06-15 17:14:32,046] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:32,047] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:32,047] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="ws/stomp"; model={}]
-DEBUG:[2021-06-15 17:14:32,053] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:32,054] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:32,438] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:32,438] LoggerInterceptor.java:21 - /spring/stommp/info
-DEBUG:[2021-06-15 17:14:32,438] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:32,438] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:32,439] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 17:14:32,439] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:32,439] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:32,480] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:32,481] LoggerInterceptor.java:21 - /spring/stommp/493/nh4uw0q5/websocket
-DEBUG:[2021-06-15 17:14:32,481] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:32,482] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:32,482] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 17:14:32,483] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:32,483] LoggerInterceptor.java:47 - ____________________end_____________________
-DEBUG:[2021-06-15 17:14:43,480] LoggerInterceptor.java:20 - =================== start ===================
-DEBUG:[2021-06-15 17:14:43,480] LoggerInterceptor.java:21 - /spring/ws/someRequest.do
-DEBUG:[2021-06-15 17:14:43,481] LoggerInterceptor.java:22 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:43,752] LoggerInterceptor.java:34 - ---------------------------------------------
-DEBUG:[2021-06-15 17:14:43,752] LoggerInterceptor.java:35 - modelAndView = null
-DEBUG:[2021-06-15 17:14:43,754] LoggerInterceptor.java:45 - ------------------- view -------------------
-DEBUG:[2021-06-15 17:14:43,754] LoggerInterceptor.java:47 - ____________________end_____________________
-INFO :[2021-06-15 17:14:55,732] WebSocketMessageBrokerStats.java:124 - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 18, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], sockJsScheduler[pool size = 16, active threads = 1, queued tasks = 3, completed tasks = 10]
-INFO :[2021-06-15 17:30:35,879] CompositeLog.java:132 - Stopping...
-INFO :[2021-06-15 17:30:35,879] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
-INFO :[2021-06-15 17:30:35,879] CompositeLog.java:132 - Stopped.
+INFO :[2021-06-29 19:46:01,907] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-06-29 19:46:04,735] ContextLoader.java:306 - Root WebApplicationContext initialized in 2822 ms
+INFO :[2021-06-29 19:46:04,823] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-06-29 19:46:08,216] CompositeLog.java:132 - Starting...
+INFO :[2021-06-29 19:46:08,216] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-29 19:46:08,225] CompositeLog.java:132 - Started.
+INFO :[2021-06-29 19:46:08,246] FrameworkServlet.java:546 - Completed initialization in 3423 ms
+DEBUG:[2021-06-29 19:46:32,849] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:46:32,849] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-06-29 19:46:32,849] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 19:46:32,867] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-06-29 19:46:32,879] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:46:32,882] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-06-29 19:46:33,004] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:46:33,005] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:46:33,073] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:46:33,073] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 19:46:33,074] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:46:33,077] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:46:33,077] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 19:46:33,077] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:46:33,097] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:46:33,097] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:46:33,097] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 19:46:33,097] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 19:46:33,097] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:46:33,098] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:46:33,098] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:46:33,098] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:46:37,830] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:46:37,830] LoggerInterceptor.java:21 - /spring/memo/memo.do
+DEBUG:[2021-06-29 19:46:37,830] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:46:37,890] MemoController.java:39 - memoService = class com.sun.proxy.$Proxy51
+DEBUG:[2021-06-29 19:46:38,433] MemoController.java:44 - list = [Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]
+DEBUG:[2021-06-29 19:46:38,434] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:46:38,435] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="memo/memo"; model={modelAndView=ModelAndView [view="memo/memo"; model={list=[Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, list=[Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]}]
+DEBUG:[2021-06-29 19:46:39,363] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:46:39,363] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:46:55,883] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:46:55,884] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 19:46:55,884] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 19:46:55,891] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 19:46:55,892] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:46:55,892] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 19:46:55,922] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:46:55,922] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-29 19:47:08,061] WebSocketMessageBrokerStats.java:124 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+DEBUG:[2021-06-29 19:47:20,007] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:47:20,007] LoggerInterceptor.java:21 - /spring/memo/memo.do
+DEBUG:[2021-06-29 19:47:20,007] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:20,008] MemoController.java:39 - memoService = class com.sun.proxy.$Proxy51
+DEBUG:[2021-06-29 19:47:20,014] MemoController.java:44 - list = [Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]
+DEBUG:[2021-06-29 19:47:20,014] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:20,015] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="memo/memo"; model={modelAndView=ModelAndView [view="memo/memo"; model={list=[Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, list=[Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]}]
+DEBUG:[2021-06-29 19:47:20,027] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:47:20,027] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:47:48,335] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:47:48,336] LoggerInterceptor.java:21 - /spring/memo/memo.do
+DEBUG:[2021-06-29 19:47:48,336] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:48,336] MemoController.java:39 - memoService = class com.sun.proxy.$Proxy51
+DEBUG:[2021-06-29 19:47:48,340] MemoController.java:44 - list = [Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]
+DEBUG:[2021-06-29 19:47:48,341] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:48,341] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="memo/memo"; model={modelAndView=ModelAndView [view="memo/memo"; model={list=[Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]}], org.springframework.validation.BindingResult.modelAndView=org.springframework.validation.BeanPropertyBindingResult: 0 errors, list=[Memo(no=14, memo=안녕2~~~, regDate=Tue May 25 16:24:20 KST 2021), Memo(no=13, memo=안녕~~~~, regDate=Tue May 25 15:57:01 KST 2021), Memo(no=12, memo=시간체크해보자, regDate=Tue May 25 15:53:50 KST 2021), Memo(no=11, memo=다시시작, regDate=Tue May 25 15:52:36 KST 2021), Memo(no=10, memo=시작, regDate=Tue May 25 15:51:35 KST 2021), Memo(no=9, memo=홍길동입니다, regDate=Mon May 24 23:43:53 KST 2021), Memo(no=8, memo=시간체크, regDate=Mon May 24 22:43:02 KST 2021), Memo(no=7, memo=그러세여, regDate=Mon May 24 22:31:11 KST 2021), Memo(no=6, memo=아니요,잘안갈겁니다, regDate=Mon May 24 19:50:32 KST 2021), Memo(no=5, memo=잘가겠습니다, regDate=Mon May 24 19:47:23 KST 2021), Memo(no=4, memo=네,안녕히가세여, regDate=Mon May 24 19:45:11 KST 2021), Memo(no=3, memo=안녕히가세요, regDate=Mon May 24 17:57:36 KST 2021), Memo(no=2, memo=반갑습니다., regDate=Mon May 24 17:34:19 KST 2021), Memo(no=1, memo=안녕하세요., regDate=Mon May 24 17:32:04 KST 2021)]}]
+DEBUG:[2021-06-29 19:47:48,581] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:47:48,581] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:47:48,635] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:47:48,636] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 19:47:48,636] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:48,640] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:48,640] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 19:47:48,640] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:47:48,640] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:47:48,691] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:47:48,692] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 19:47:48,692] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:48,695] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:48,696] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 19:47:48,696] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:47:48,696] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:47:51,587] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:47:51,587] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 19:47:51,587] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 19:47:51,590] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 19:47:51,590] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:47:51,591] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 19:47:51,595] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:47:51,595] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:49:51,279] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:49:51,280] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 19:49:51,280] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 19:49:51,283] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 19:49:51,284] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:49:51,284] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 19:49:51,508] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:49:51,508] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:49:51,562] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:49:51,562] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 19:49:51,563] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:49:51,566] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:49:51,567] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 19:49:51,567] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:49:51,567] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:49:51,594] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:49:51,595] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 19:49:51,595] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:49:51,598] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:49:51,598] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 19:49:51,598] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:49:51,599] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:50:16,458] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:50:16,458] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 19:50:16,458] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 19:50:16,462] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 19:50:16,462] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:50:16,462] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 19:50:16,666] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:50:16,666] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:50:16,711] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:50:16,712] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 19:50:16,712] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:50:16,714] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:50:16,715] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 19:50:16,715] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:50:16,715] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 19:50:16,756] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 19:50:16,756] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 19:50:16,756] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 19:50:16,759] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 19:50:16,759] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 19:50:16,759] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 19:50:16,759] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:15:05,801] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:15:05,801] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:15:05,801] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:15:05,804] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:15:05,805] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:05,805] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:15:06,007] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:15:06,007] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:15:06,065] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:15:06,065] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:15:06,065] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:06,068] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:06,068] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:15:06,068] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:15:06,068] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:15:06,101] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:15:06,101] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:15:06,101] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:06,103] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:06,104] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:15:06,104] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:15:06,104] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:15:16,283] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:15:16,283] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:15:16,283] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:15:16,286] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:15:16,287] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:16,287] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:15:16,293] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:15:16,294] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:15:55,087] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:15:55,088] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:15:55,088] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:15:55,090] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:15:55,091] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:55,091] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:15:55,261] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:15:55,261] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:15:57,227] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:15:57,228] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:15:57,228] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:15:57,230] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:15:57,230] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:57,230] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:15:57,232] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:15:57,232] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:15:57,267] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:15:57,267] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:15:57,267] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:57,270] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:57,270] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:15:57,270] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:15:57,270] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:15:57,297] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:15:57,298] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:15:57,298] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:57,300] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:15:57,300] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:15:57,300] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:15:57,300] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-29 20:17:08,057] WebSocketMessageBrokerStats.java:124 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+DEBUG:[2021-06-29 20:17:24,968] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:17:24,968] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:17:24,968] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:17:24,971] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:17:24,971] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:17:24,971] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:17:25,173] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:17:25,173] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:17:25,221] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:17:25,222] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:17:25,222] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:17:25,224] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:17:25,225] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:17:25,225] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:17:25,225] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:17:25,256] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:17:25,256] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:17:25,257] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:17:25,259] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:17:25,259] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:17:25,259] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:17:25,260] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:18:25,987] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:18:25,987] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:18:25,987] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:18:25,990] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:18:25,990] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:18:25,990] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:18:25,990] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:20:53,158] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:20:53,159] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:20:53,159] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:20:53,162] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:20:53,163] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:20:53,163] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:20:53,329] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:20:53,329] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:20:53,366] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:20:53,366] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:20:53,366] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:20:53,368] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:20:53,369] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:20:53,369] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:20:53,369] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:20:53,406] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:20:53,407] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:20:53,407] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:20:53,409] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:20:53,410] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:20:53,410] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:20:53,410] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:25:57,951] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:25:57,951] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:25:57,951] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:25:57,953] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:25:57,954] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:25:57,954] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:25:58,128] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:25:58,128] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:25:58,175] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:25:58,175] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:25:58,175] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:25:58,178] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:25:58,178] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:25:58,178] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:25:58,178] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:25:58,207] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:25:58,208] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:25:58,208] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:25:58,210] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:25:58,210] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:25:58,210] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:25:58,211] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:31:06,525] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:31:06,525] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:31:06,525] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:31:06,528] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:31:06,528] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:31:06,528] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:31:06,710] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:31:06,710] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:31:06,773] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:31:06,774] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:31:06,774] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:31:06,776] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:31:06,776] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:31:06,776] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:31:06,776] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:31:06,824] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:31:06,824] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:31:06,824] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:31:06,827] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:31:06,827] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:31:06,827] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:31:06,828] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:33:50,073] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:33:50,073] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:33:50,073] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:33:50,076] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:33:50,077] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:33:50,077] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:33:50,239] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:33:50,239] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:33:50,301] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:33:50,302] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:33:50,302] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:33:50,306] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:33:50,306] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:33:50,306] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:33:50,306] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:33:50,344] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:33:50,345] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:33:50,345] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:33:50,347] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:33:50,348] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:33:50,348] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:33:50,348] LoggerInterceptor.java:47 - ____________________end_____________________
+WARN :[2021-06-29 20:33:57,513] AbstractHandlerExceptionResolver.java:197 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+WARN :[2021-06-29 20:34:12,166] AbstractHandlerExceptionResolver.java:197 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+INFO :[2021-06-29 20:34:15,390] CompositeLog.java:132 - Stopping...
+INFO :[2021-06-29 20:34:15,391] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-29 20:34:15,391] CompositeLog.java:132 - Stopped.
+INFO :[2021-06-29 20:34:18,001] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-06-29 20:34:20,772] ContextLoader.java:306 - Root WebApplicationContext initialized in 2768 ms
+INFO :[2021-06-29 20:34:20,864] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-06-29 20:34:23,972] CompositeLog.java:132 - Starting...
+INFO :[2021-06-29 20:34:23,973] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-29 20:34:23,975] CompositeLog.java:132 - Started.
+INFO :[2021-06-29 20:34:23,993] FrameworkServlet.java:546 - Completed initialization in 3129 ms
+INFO :[2021-06-29 20:35:15,009] CompositeLog.java:132 - Stopping...
+INFO :[2021-06-29 20:35:15,009] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-29 20:35:15,009] CompositeLog.java:132 - Stopped.
+INFO :[2021-06-29 20:46:23,195] ContextLoader.java:270 - Root WebApplicationContext: initialization started
+INFO :[2021-06-29 20:46:25,860] ContextLoader.java:306 - Root WebApplicationContext initialized in 2662 ms
+INFO :[2021-06-29 20:46:25,942] FrameworkServlet.java:524 - Initializing Servlet 'appServlet'
+INFO :[2021-06-29 20:46:28,992] CompositeLog.java:132 - Starting...
+INFO :[2021-06-29 20:46:28,993] CompositeLog.java:132 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-29 20:46:28,995] CompositeLog.java:132 - Started.
+INFO :[2021-06-29 20:46:29,012] FrameworkServlet.java:546 - Completed initialization in 3070 ms
+DEBUG:[2021-06-29 20:46:41,962] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:46:41,962] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-06-29 20:46:41,962] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:46:41,977] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-06-29 20:46:41,987] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:46:41,990] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-06-29 20:46:42,100] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:46:42,100] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:46:44,257] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:46:44,257] LoggerInterceptor.java:21 - /spring/
+DEBUG:[2021-06-29 20:46:44,257] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:46:44,258] HomeController.java:30 - index 페이지 요청
+DEBUG:[2021-06-29 20:46:44,258] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:46:44,258] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="forward:/index.jsp"; model={}]
+DEBUG:[2021-06-29 20:46:44,262] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:46:44,262] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:46:44,307] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:46:44,307] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:46:44,307] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:46:44,326] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:46:44,326] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:46:44,326] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:46:44,326] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:46:44,335] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:46:44,335] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:46:44,335] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:46:44,338] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:46:44,338] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:46:44,338] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:46:44,338] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:46:46,657] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:46:46,657] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:46:46,658] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:46:47,173] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:46:47,174] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:46:47,175] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:46:48,170] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:46:48,171] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-29 20:47:28,829] WebSocketMessageBrokerStats.java:124 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+DEBUG:[2021-06-29 20:51:12,389] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:51:12,389] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:51:12,389] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:51:12,393] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:51:12,393] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:51:12,394] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:51:12,663] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:51:12,663] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:51:12,704] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:51:12,705] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:51:12,705] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:51:12,708] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:51:12,708] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:51:12,709] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:51:12,709] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:51:12,750] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:51:12,751] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:51:12,751] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:51:12,754] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:51:12,754] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:51:12,754] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:51:12,754] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:56:36,749] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:56:36,750] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:56:36,750] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:56:36,753] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:56:36,753] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:56:36,754] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:56:36,932] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:56:36,932] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:56:36,974] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:56:36,975] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:56:36,975] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:56:36,977] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:56:36,977] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:56:36,978] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:56:36,978] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:56:37,011] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:56:37,012] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:56:37,012] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:56:37,014] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:56:37,014] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:56:37,014] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:56:37,014] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:57:52,594] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:57:52,594] LoggerInterceptor.java:21 - /spring/demo/devList.do
+DEBUG:[2021-06-29 20:57:52,594] LoggerInterceptor.java:22 - ---------------------------------------------
+INFO :[2021-06-29 20:57:52,598] DemoController.java:223 - list = [Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]
+DEBUG:[2021-06-29 20:57:52,599] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:57:52,599] LoggerInterceptor.java:35 - modelAndView = ModelAndView [view="demo/devList"; model={list=[Dev(no=7, name=신사임당딸, career=3, email=abcd@naver.com, gender=F, lang=[Javascript, Python]), Dev(no=6, name=유관순, career=20, email=abcd@naver.com, gender=F, lang=[C, Javascript, Python]), Dev(no=4, name=이순신, career=10, email=abcd@naver.com, gender=M, lang=[C, Javascript]), Dev(no=1, name=홍길동, career=10, email=abcd@naver.com, gender=M, lang=[Java, C, Python])]}]
+DEBUG:[2021-06-29 20:57:52,796] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:57:52,796] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:57:52,838] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:57:52,839] LoggerInterceptor.java:21 - /spring/resources/css/style.css
+DEBUG:[2021-06-29 20:57:52,839] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:57:52,842] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:57:52,842] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:57:52,842] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:57:52,843] LoggerInterceptor.java:47 - ____________________end_____________________
+DEBUG:[2021-06-29 20:57:52,880] LoggerInterceptor.java:20 - =================== start ===================
+DEBUG:[2021-06-29 20:57:52,880] LoggerInterceptor.java:21 - /spring/resources/images/logo-spring.png
+DEBUG:[2021-06-29 20:57:52,880] LoggerInterceptor.java:22 - ---------------------------------------------
+DEBUG:[2021-06-29 20:57:52,883] LoggerInterceptor.java:34 - ---------------------------------------------
+DEBUG:[2021-06-29 20:57:52,883] LoggerInterceptor.java:35 - modelAndView = null
+DEBUG:[2021-06-29 20:57:52,883] LoggerInterceptor.java:45 - ------------------- view -------------------
+DEBUG:[2021-06-29 20:57:52,883] LoggerInterceptor.java:47 - ____________________end_____________________
+INFO :[2021-06-29 21:17:28,837] WebSocketMessageBrokerStats.java:124 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+INFO :[2021-06-29 21:21:32,794] CompositeLog.java:132 - Stopping...
+INFO :[2021-06-29 21:21:32,795] CompositeLog.java:132 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+INFO :[2021-06-29 21:21:32,795] CompositeLog.java:132 - Stopped.

@@ -33,5 +33,6 @@ div#memo-container{width:60%; margin:0 auto;text-align:center;}
 		</tr>
 		</c:forEach>
 	</table>
+	
 </div>
 <jsp:include page="/WEB-INF/views/common/footer.jsp"></jsp:include>

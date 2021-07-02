@@ -40,11 +40,9 @@
 	   		</td>
 	   	</tr>
 	   </c:forEach>
-   </c:if>
-   
-   
-   
+   </c:if>   
 </table>
+
 <form id="deleteFrm">
 	<input type="hidden" name="no" />
 </form>
@@ -52,9 +50,18 @@
 	<input type="hidden" name="no" />
 </form>
 
+<form method="post">
+		<input type="text" name="startPlace" id="startPlace" placeholder="출발지"/>
+		<input type="text" name="endPlace" id="endPlace" placeholder="도착지"/>
+		<input type="submit" class="searchBtn" value="검색"/>
+</form>
+
+
+
 
 
 <script>
+
 	function updateDev() {
 		//GET방식 /demo/updateDev?no=123 ---> devUpdateForm.jsp
 		//POST  /demo/updateDev ---> redirect:/demo/devList.do
