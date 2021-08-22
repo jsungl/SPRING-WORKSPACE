@@ -136,13 +136,16 @@ public class BoardServiceImpl implements BoardService {
 	}
 		
 	/**
-	 * 전체 게시글 조회
+	 * 전체 게시글 수 조회
 	 */
 	@Override
 	public int selectBoardCount() {
 		return boardDao.selectBoardCount();
 	}
 
+	/**
+	 * 게시글 검색(제목검색)
+	 */
 	@Override
 	public List<Board> searchTitle(String searchTitle) {
 		return boardDao.searchTitle(searchTitle);

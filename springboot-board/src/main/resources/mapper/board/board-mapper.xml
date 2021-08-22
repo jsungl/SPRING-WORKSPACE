@@ -102,30 +102,13 @@
 	where
 		no = #{no}
   </update>
-  <update id="updateAttachment">
-  	update
-		attachment
-	set
-		status = 'N'
-	where
-		board_no = #{no}
-  </update>
+  
   <delete id="deleteAttachment">
   	delete from
   		attachment
   	where
   		board_no = #{no}
   </delete>
-  
-  <update id="updatePrevAttachment">
-  	update
-		attachment
-	set
-		status = 'N'
-	where
-		no = #{attachNo}
-  </update>
-  
   
   
   <delete id="deleteBoard">
