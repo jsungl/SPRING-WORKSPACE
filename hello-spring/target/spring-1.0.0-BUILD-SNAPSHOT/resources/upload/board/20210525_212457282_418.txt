@@ -1,0 +1,5 @@
+src-main-resources
+클래스패스로 배포될 파일들
+
+webapp-resources
+정적파일(css,js,img등)

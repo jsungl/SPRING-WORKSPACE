@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 
- * 
- * 
  * @SpringBootConfiguration
  * 		springboot관련 설정
  * @EnableAutoConfiguration

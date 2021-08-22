@@ -63,7 +63,7 @@ div.result{width:70%; margin:0 auto;}
 				});
 			});
 	        </script>
-			
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->			
 			<!-- 2. Get /menus/kr, /menus/ch, /menus/jp -->
 			<div class="menu-test">
 				<h4>추천메뉴(GET)</h4>
@@ -115,6 +115,7 @@ div.result{width:70%; margin:0 auto;}
 	
 			});	
 			</script>
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->
 			<!-- 2.POST /menu -->
 			<div class="menu-test">
 				<h4>메뉴 등록하기(POST)</h4>
@@ -189,7 +190,7 @@ div.result{width:70%; margin:0 auto;}
 			});
 
 			</script>
-			
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->			
 			<!-- #3.PUT /menu/123 -->
 			<div class="menu-test">
 				<h4>메뉴 수정하기(PUT)</h4>
@@ -234,9 +235,10 @@ div.result{width:70%; margin:0 auto;}
 					url: `${pageContext.request.contextPath}/menu/\${id}`,
 					success(data){
 						//console.log(data);//{menu: {id: 21, restaurant: "봉구스", name: "제육밥버거", price: 3500, type: "kr", …}) 
-						const {menu} = data;
 						const {msg} = data;
+						const {menu} = data;
 						console.log(menu); //{id: 21, restaurant: "봉구스", name: "제육밥버거", price: 3500, type: "kr", …}
+						console.log(msg);
 						if(msg != null){
 							alert(msg);
 							e.target.reset();
@@ -312,6 +314,7 @@ div.result{width:70%; margin:0 auto;}
 
 			});
 			</script>
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------- -->			
 			<!-- 4. 삭제 DELETE /menu/123 -->    
 			<div class="menu-test">
 		    	<h4>메뉴 삭제하기(DELETE)</h4>

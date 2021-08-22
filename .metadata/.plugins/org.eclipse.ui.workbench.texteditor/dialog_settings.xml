@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="lang"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="lang"/>
+			<item value="insertAttachment"/>
+			<item value="custom-file"/>
+			<item value="boardExtMap"/>
 			<item value="tbl-board"/>
+			<item value="displayResultTable"/>
+			<item value="destroy"/>
+			<item value="lang"/>
 			<item value="next"/>
 			<item value="utf-8"/>
 			<item value="bcryptPasswordEncoder"/>
@@ -18,15 +23,12 @@
 			<item value="cPage"/>
 			<item value="table"/>
 			<item value="referer"/>
-			<item value="로그인"/>
-			<item value="dev"/>
-			<item value="welcome"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="2057"/>
+		<item key="DIALOG_X_ORIGIN" value="1538"/>
 		<item key="DIALOG_Y_ORIGIN" value="370"/>
 		<item key="DIALOG_WIDTH" value="393"/>
 		<item key="DIALOG_HEIGHT" value="523"/>
